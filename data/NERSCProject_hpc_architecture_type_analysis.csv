@@ -1,0 +1,131 @@
+Platform,Workload,Architecture_Type,Perf_W,Efficiency_Score,Suitability
+Frontier,Turbulent Combustion Modeling,GPU-based,620.23,0.96,Low
+Frontier,Turbulent Combustion Modeling,CPU-based,1586.47,0.98,High
+Frontier,Renewable Energy Systems Optimization,Hybrid,1316.71,0.53,Medium
+Frontier,Accelerator Beam Dynamics Simulation,Quantum,1252.62,0.94,Medium
+Frontier,Radiation Transport Modeling,FPGA,1554.74,0.69,Low
+Frontier,Nuclear Structure and Reactions Modeling,GPU-based,1904.98,0.57,High
+Frontier,Quantum Climate Modeling,CPU-based,75.1,0.97,Medium
+Frontier,Nuclear Structure and Reactions Modeling,Hybrid,1389.82,0.59,High
+Frontier,Quantum Climate Modeling,Quantum,67.63,0.89,High
+Frontier,Nuclear Structure and Reactions Modeling,FPGA,1554.55,0.99,Low
+Frontier,Plasma Fusion Simulation,GPU-based,1063.77,0.7,High
+Frontier,Plasma Fusion Simulation,CPU-based,1785.9,0.82,Medium
+Frontier,Accelerator Beam Dynamics Simulation,Hybrid,562.39,0.6,High
+Frontier,Plasma Fusion Simulation,Quantum,1822.01,1,Medium
+Frontier,Genome-scale Systems Biology,FPGA,254.78,0.8,Medium
+Frontier,Nuclear Structure and Reactions Modeling,GPU-based,829.69,0.84,Low
+Frontier,Plasma Fusion Simulation,CPU-based,1629.95,0.54,Medium
+Frontier,Genome-scale Systems Biology,Hybrid,1536.4,0.82,Medium
+Frontier,Quantum Climate Modeling,Quantum,1592.68,0.82,High
+Frontier,Cryogenic Detector Simulation,FPGA,1216.76,0.65,Medium
+Frontier,High Energy Physics Event Simulation,GPU-based,523.24,0.51,Low
+Frontier,Turbulent Combustion Modeling,CPU-based,1315.17,0.62,Medium
+Frontier,Genome-scale Systems Biology,Hybrid,1494.91,0.61,Medium
+Frontier,Computational Fluid Dynamics for Energy,Quantum,876.39,0.91,High
+Frontier,Genome-scale Systems Biology,FPGA,177.17,0.66,High
+Frontier,Astrophysical Simulations,GPU-based,1995.76,0.83,Medium
+Frontier,Turbulent Combustion Modeling,CPU-based,1144.14,0.75,Low
+Frontier,High Energy Physics Event Simulation,Hybrid,952.95,0.65,Medium
+Frontier,Plasma Fusion Simulation,Quantum,878.73,0.56,Low
+Frontier,Astrophysical Simulations,FPGA,169.65,0.56,Medium
+Aurora,Nuclear Structure and Reactions Modeling,GPU-based,349.54,0.55,Medium
+Aurora,Geophysical Hazard Prediction,CPU-based,1524.33,0.91,Low
+Aurora,Geophysical Hazard Prediction,Hybrid,1407.94,0.75,Low
+Aurora,Radiation Transport Modeling,Quantum,1342.48,0.82,Medium
+Aurora,Turbulent Combustion Modeling,FPGA,1316.56,0.55,High
+Aurora,Accelerator Beam Dynamics Simulation,GPU-based,909.59,0.99,High
+Aurora,Accelerator Beam Dynamics Simulation,CPU-based,1955.37,0.79,Low
+Aurora,Nuclear Structure and Reactions Modeling,Hybrid,1239.18,0.57,Medium
+Aurora,Astrophysical Simulations,Quantum,1194.31,0.62,Low
+Aurora,Turbulent Combustion Modeling,FPGA,1884.48,0.85,Medium
+Aurora,Genome-scale Systems Biology,GPU-based,1138.04,0.65,High
+Aurora,Cryogenic Detector Simulation,CPU-based,942.44,0.57,High
+Aurora,Nuclear Structure and Reactions Modeling,Hybrid,1938.11,0.99,Low
+Aurora,Genome-scale Systems Biology,Quantum,1538.51,0.9,High
+Aurora,Genome-scale Systems Biology,FPGA,325.81,0.72,Medium
+Aurora,Computational Fluid Dynamics for Energy,GPU-based,442.99,0.69,High
+Aurora,Nuclear Structure and Reactions Modeling,CPU-based,1212.22,0.68,Low
+Aurora,Quantum Climate Modeling,Hybrid,486.16,0.82,High
+Aurora,Accelerator Beam Dynamics Simulation,Quantum,71.66,0.65,Low
+Aurora,AI Climate Modeling and Prediction,FPGA,562.56,0.84,High
+Aurora,Astrophysical Simulations,GPU-based,72.7,0.63,High
+Aurora,Astrophysical Simulations,CPU-based,1844.18,0.62,Medium
+Aurora,High Energy Physics Event Simulation,Hybrid,1418.27,0.95,High
+Aurora,Radiation Transport Modeling,Quantum,1187.91,0.87,Medium
+Aurora,Nuclear Structure and Reactions Modeling,FPGA,258.68,0.92,Low
+Perlmutter,Radiation Transport Modeling,GPU-based,93.54,0.83,Medium
+Perlmutter,Astrophysical Simulations,CPU-based,419.59,0.86,Low
+Perlmutter,Computational Fluid Dynamics for Energy,Hybrid,1504.93,0.72,Medium
+Perlmutter,Molecular Materials Discovery,Quantum,1335.53,0.57,High
+Perlmutter,Nuclear Structure and Reactions Modeling,FPGA,155.59,0.77,High
+Perlmutter,Radiation Transport Modeling,GPU-based,1295.41,0.74,Medium
+Perlmutter,Geophysical Hazard Prediction,CPU-based,1569.25,0.93,Medium
+Perlmutter,AI Climate Modeling and Prediction,Hybrid,292.93,0.79,High
+Perlmutter,AI Climate Modeling and Prediction,Quantum,677.98,0.56,Low
+Perlmutter,Turbulent Combustion Modeling,FPGA,442.19,0.69,Low
+Perlmutter,Accelerator Beam Dynamics Simulation,GPU-based,1231.34,0.98,Medium
+Perlmutter,High Energy Physics Event Simulation,CPU-based,1437.3,0.8,Low
+Perlmutter,Accelerator Beam Dynamics Simulation,Hybrid,1169.47,0.77,High
+Perlmutter,Turbulent Combustion Modeling,Quantum,1075.85,0.77,Medium
+Perlmutter,Turbulent Combustion Modeling,FPGA,764.12,0.72,Medium
+Perlmutter,Computational Fluid Dynamics for Energy,GPU-based,1900.47,0.62,Low
+Perlmutter,Computational Fluid Dynamics for Energy,CPU-based,767.43,0.57,Low
+Perlmutter,Renewable Energy Systems Optimization,Hybrid,532.39,0.85,High
+Perlmutter,Radiation Transport Modeling,Quantum,459.78,0.83,Medium
+Perlmutter,High Energy Physics Event Simulation,FPGA,96.9,0.61,Low
+Perlmutter,Accelerator Beam Dynamics Simulation,GPU-based,1018.17,0.67,High
+Perlmutter,Renewable Energy Systems Optimization,CPU-based,868.65,0.72,Low
+Perlmutter,Nuclear Structure and Reactions Modeling,Hybrid,592.67,0.55,Medium
+Perlmutter,Accelerator Beam Dynamics Simulation,Quantum,116.97,0.54,High
+Perlmutter,Cryogenic Detector Simulation,FPGA,1955.98,0.97,Low
+El Capitan,Geophysical Hazard Prediction,GPU-based,810.07,0.56,Medium
+El Capitan,Nuclear Structure and Reactions Modeling,CPU-based,1155.16,0.9,Medium
+El Capitan,Renewable Energy Systems Optimization,Hybrid,1640.91,0.59,High
+El Capitan,Molecular Materials Discovery,Quantum,1848.64,0.95,Medium
+El Capitan,Genome-scale Systems Biology,FPGA,338.4,0.84,Low
+El Capitan,Astrophysical Simulations,GPU-based,716.27,0.54,Medium
+El Capitan,Computational Fluid Dynamics for Energy,CPU-based,187.6,0.81,Medium
+El Capitan,Turbulent Combustion Modeling,Hybrid,829.56,0.5,Low
+El Capitan,Genome-scale Systems Biology,Quantum,683.07,0.65,Low
+El Capitan,Quantum Climate Modeling,FPGA,46.82,0.96,High
+El Capitan,Plasma Fusion Simulation,GPU-based,1803.05,0.99,Medium
+El Capitan,Geophysical Hazard Prediction,CPU-based,50.62,0.5,Low
+El Capitan,Genome-scale Systems Biology,Hybrid,1783.05,0.56,High
+El Capitan,Genome-scale Systems Biology,Quantum,1963.71,0.78,Low
+El Capitan,Renewable Energy Systems Optimization,FPGA,1134.35,0.56,Low
+El Capitan,Plasma Fusion Simulation,GPU-based,352.94,0.61,Medium
+El Capitan,Quantum Climate Modeling,CPU-based,628.98,0.55,Low
+El Capitan,Molecular Materials Discovery,Hybrid,439.13,0.97,Medium
+El Capitan,AI Climate Modeling and Prediction,Quantum,1595.16,0.52,Low
+El Capitan,Quantum Climate Modeling,FPGA,1718.25,0.55,Medium
+El Capitan,Radiation Transport Modeling,GPU-based,101.6,0.91,High
+El Capitan,Accelerator Beam Dynamics Simulation,CPU-based,1182.64,0.97,High
+El Capitan,Nuclear Structure and Reactions Modeling,Hybrid,28.12,0.92,Low
+El Capitan,Plasma Fusion Simulation,Quantum,453.39,0.9,High
+El Capitan,Geophysical Hazard Prediction,FPGA,1147.51,0.8,High
+Leonardo,AI Climate Modeling and Prediction,GPU-based,73.25,0.55,Low
+Leonardo,Computational Fluid Dynamics for Energy,CPU-based,624.33,0.55,Low
+Leonardo,Computational Fluid Dynamics for Energy,Hybrid,507.05,0.55,Medium
+Leonardo,AI Climate Modeling and Prediction,Quantum,16.48,0.64,Medium
+Leonardo,Accelerator Beam Dynamics Simulation,FPGA,1018.55,0.77,High
+Leonardo,Geophysical Hazard Prediction,GPU-based,188.9,0.9,Low
+Leonardo,Cryogenic Detector Simulation,CPU-based,1897.27,0.87,High
+Leonardo,Computational Fluid Dynamics for Energy,Hybrid,341.75,0.79,High
+Leonardo,Geophysical Hazard Prediction,Quantum,323.49,0.91,Low
+Leonardo,Turbulent Combustion Modeling,FPGA,867.49,0.63,High
+Leonardo,Astrophysical Simulations,GPU-based,177,0.67,Medium
+Leonardo,Renewable Energy Systems Optimization,CPU-based,1457.46,0.78,Low
+Leonardo,Molecular Materials Discovery,Hybrid,1266.23,0.66,Low
+Leonardo,Renewable Energy Systems Optimization,Quantum,1251.36,0.51,Medium
+Leonardo,High Energy Physics Event Simulation,FPGA,590.65,0.93,Medium
+Leonardo,Computational Fluid Dynamics for Energy,GPU-based,633.62,0.88,Low
+Leonardo,Plasma Fusion Simulation,CPU-based,1848.23,0.99,Medium
+Leonardo,Nuclear Structure and Reactions Modeling,Hybrid,99.2,0.72,Low
+Leonardo,Computational Fluid Dynamics for Energy,Quantum,871,0.76,High
+Leonardo,Turbulent Combustion Modeling,FPGA,1272.24,1,High
+Leonardo,Cryogenic Detector Simulation,GPU-based,1154.58,0.5,Medium
+Leonardo,Molecular Materials Discovery,CPU-based,992.93,0.74,Low
+Leonardo,Geophysical Hazard Prediction,Hybrid,1722.08,0.88,High
+Leonardo,Quantum Climate Modeling,Quantum,1810.4,0.84,Low
+Leonardo,Accelerator Beam Dynamics Simulation,FPGA,1248.62,0.84,High

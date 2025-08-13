@@ -1,0 +1,251 @@
+Workload,Project_Name,Work_Units,Nodes,Power_per_Node_kW,Runtime_h,kWh,Perf_W,Key_Risks
+Climate Risk and Resilience Modeling,Cambridge Computational Biology Group Science Collaboration,47896.05783,62,5.178166187,2.917108806,994.5435324,344.9729187,Limited algorithmic scalability
+Genome-scale Systems Biology,Caltech Center for Advanced Computing Scientific Computing Division,43893.19053,60,5.633911056,2.584242138,1078.336834,355.4841707,Algorithmic instability with large datasets
+Geophysical Hazard Prediction,ORNL Climate Change Science Institute Applied Science Group,48397.55035,66,6.529889369,2.664086714,949.6022208,361.096359,Load imbalance in parallel workloads
+Astrophysical Simulations,Tokyo Institute of Technology HPC Center Prediction Unit,46667.55965,56,5.716071106,2.527212884,986.6259003,321.0403047,I/O throughput limitations
+Accelerator Beam Dynamics Simulation,Harvard Center for the Environment Modeling Team,53373.60708,53,5.939872372,2.541479994,907.8454666,325.2661552,Fault tolerance under long runs
+Plasma Fusion Simulation,Brookhaven National Laboratory Collider-Accelerator Department Prediction Unit,52976.41312,55,6.069400218,2.552625114,965.8101967,374.6504816,Fault tolerance under long runs
+Climate Risk and Resilience Modeling,SLAC National Accelerator Laboratory Machine Learning Group Research Group,49964.88339,58,5.985892211,2.694411068,1069.939949,369.8125551,Performance regression with new compiler versions
+Quantum Climate Modeling,University of Illinois National Center for Supercomputing Applications Scientific Computing Division,49572.968,64,5.253465342,2.595824187,982.9880914,354.6801367,NUMA-related performance penalties
+Radiation Transport Modeling,LBNL Computational Research Division Simulation Consortium,51903.80361,57,5.887941303,2.712738858,965.8093293,371.4381296,GPU memory capacity limits
+Renewable Energy Systems Optimization,ANL Materials Science Division Research Group,53174.46594,55,5.851484751,2.671242032,966.9738423,363.563515,Thermal throttling under sustained load
+Genome-scale Systems Biology,Fermilab High Energy Physics Division Scientific Computing Division,43685.83282,65,5.999285019,2.388395728,1072.205275,366.1953182,Data preprocessing bottlenecks
+Turbulent Combustion Modeling,Georgia Tech Computational Combustion Laboratory Prediction Unit,52145.92295,56,6.032975251,2.903928614,1011.828649,360.3380403,"Scaling inefficiencies beyond 1,000 nodes"
+High-Resolution Earth System Simulation,University of Illinois National Center for Supercomputing Applications Modeling Team,51379.17155,59,5.61042032,2.539044435,990.7909812,353.2949665,Power consumption spikes during peak loads
+Nuclear Structure and Reactions Modeling,Berkeley Quantum Devices Group HPC Lab,47084.85969,65,5.349026474,2.517340301,912.1299135,375.5169805,Underutilization of SIMD instructions
+Renewable Energy Systems Optimization,NERSC Data and Analytics Services Science Collaboration,41476.92197,51,5.285777774,2.682402517,1073.223823,368.6289405,Unoptimized GPU kernel execution
+Geophysical Hazard Prediction,SLAC National Accelerator Laboratory Machine Learning Group Science Collaboration,47582.56111,59,6.009322519,2.621962424,948.2153707,365.3971715,Power consumption spikes during peak loads
+Radiation Transport Modeling,University of Illinois National Center for Supercomputing Applications Applied Science Group,49865.38731,68,6.172451909,2.651501686,1042.991631,411.8498045,I/O throughput limitations
+Geophysical Hazard Prediction,University of Chicago Quantum Information Science Group Scientific Computing Division,46187.51464,69,6.084464171,2.747890835,1067.55325,374.782117,Memory bandwidth constraints
+Exascale Astrophysical Plasma Simulation,Max Planck Institute for Plasma Physics Scientific Computing Division,42996.98488,57,6.094619004,2.523178612,1090.799482,347.6440918,Interconnect congestion
+Accelerator Beam Dynamics Simulation,University of Chicago Quantum Information Science Group Science Collaboration,48893.83046,61,5.801538894,2.536491579,1005.531181,375.593125,Network latency bottlenecks
+Cryogenic Detector Simulation,Columbia University Earth Institute HPC Lab,57145.74427,57,5.435507045,2.4596572,1014.977623,406.1955752,Debugging complexity in large-scale runs
+Plasma Fusion Simulation,ORNL Climate Change Science Institute Simulation Consortium,47214.98329,60,5.973371153,3.017686816,995.9339516,314.8646565,Memory bandwidth constraints
+High-Resolution Earth System Simulation,Stanford Genome Technology Center Applied Science Group,51748.7591,60,5.863938535,2.877798953,964.6603759,379.4190184,Debugging complexity in large-scale runs
+Astrophysical Simulations,Fermilab High Energy Physics Division Data Science Unit,53362.22987,58,6.516799616,2.823732228,920.4202746,343.4993114,Algorithmic instability with large datasets
+AI Climate Modeling and Prediction,EPFL High Performance Computing Center Simulation Consortium,50613.09406,63,5.840476984,2.743994557,918.2093647,339.2291508,MPI collective operation contention
+High Energy Physics Event Simulation,Georgia Tech Computational Combustion Laboratory HPC Lab,51089.49591,61,6.1247434,2.85121834,1033.724836,376.6738606,Interconnect congestion
+Renewable Energy Systems Optimization,Max Planck Institute for Plasma Physics Technology Development Team,46970.15267,60,6.43230073,2.697410419,880.982615,427.6806627,Insufficient profiling data for tuning
+Plasma Fusion Simulation,MIT Plasma Science and Fusion Center Simulation Consortium,43677.35424,58,5.998325801,2.812369545,997.5840538,370.2150648,Limited algorithmic scalability
+Renewable Energy Systems Optimization,LLNL High Energy Density Physics Group Technology Development Team,45677.76786,57,5.74209738,2.537171401,994.9028393,370.197132,Insufficient checkpoint/restart performance
+Astrophysical Simulations,Max Planck Institute for Plasma Physics Scientific Computing Division,44101.22765,55,6.716302176,3.104407086,996.5967999,350.5145597,Memory bandwidth constraints
+Computational Fluid Dynamics for Energy,Brookhaven National Laboratory Collider-Accelerator Department Applied Science Group,44718.55054,55,5.453001063,2.34131727,1072.844859,355.1160577,Fault tolerance under long runs
+Cryogenic Detector Simulation,Cambridge Computational Biology Group HPC Lab,47541.74386,69,5.591467883,2.409464265,1069.945318,372.4030603,Insufficient checkpoint/restart performance
+Quantum Climate Modeling,MIT Plasma Science and Fusion Center Science Collaboration,47868.2138,60,5.376302438,2.459054719,934.8897197,372.4860067,Unoptimized GPU kernel execution
+Computational Chemistry for Energy Storage,Berkeley Quantum Devices Group Applied Science Group,47996.1878,58,6.13978347,2.592591028,893.4909257,346.8695185,Limited algorithmic scalability
+High Energy Physics Event Simulation,EPFL High Performance Computing Center Applied Science Group,55732.52678,63,5.595858344,2.759555955,917.9054336,384.1602836,Unoptimized GPU kernel execution
+Computational Chemistry for Energy Storage,SLAC National Accelerator Laboratory Machine Learning Group Technology Development Team,52618.08042,58,5.685333727,2.920418223,933.5848512,311.3353573,"Scaling inefficiencies beyond 1,000 nodes"
+Exascale Astrophysical Plasma Simulation,LLNL High Energy Density Physics Group Simulation Consortium,55853.32401,56,5.797091108,2.883946329,976.973536,374.5358597,Insufficient checkpoint/restart performance
+Quantum Climate Modeling,Brookhaven National Laboratory Collider-Accelerator Department Scientific Computing Division,56602.86641,60,5.766379174,2.701772433,1024.166709,381.1007337,Underutilization of SIMD instructions
+High-Resolution Earth System Simulation,EPFL High Performance Computing Center Science Collaboration,43206.71558,56,6.00174348,2.501287508,1113.278341,350.4913578,Algorithmic instability with large datasets
+Geophysical Hazard Prediction,MIT Plasma Science and Fusion Center Data Science Unit,45589.92334,59,5.202172031,2.492880742,985.824924,373.724034,Unoptimized GPU kernel execution
+Turbulent Combustion Modeling,EPFL High Performance Computing Center Data Science Unit,50407.74946,56,5.813411713,2.444575695,933.3980593,364.546199,Memory bandwidth constraints
+AI Climate Modeling and Prediction,Los Alamos National Laboratory Materials Physics and Applications Technology Development Team,42459.17388,57,5.786056374,2.541734766,963.922571,363.020756,Load imbalance in parallel workloads
+AI Climate Modeling and Prediction,Cambridge Computational Biology Group Data Science Unit,54389.11942,60,5.56670782,2.504054729,867.2828958,367.0805831,Interconnect congestion
+Astrophysical Simulations,Los Alamos National Laboratory Materials Physics and Applications Scientific Computing Division,53061.07231,53,6.022610252,2.767724535,839.9541299,354.1785695,Data preprocessing bottlenecks
+Exascale Astrophysical Plasma Simulation,Tokyo Institute of Technology HPC Center HPC Lab,44198.62792,52,5.804213115,2.217557686,1018.314607,363.3257043,Unoptimized GPU kernel execution
+Renewable Energy Systems Optimization,Columbia University Earth Institute Modeling Team,50338.09341,66,5.819201092,2.369212944,948.3268266,341.6483561,Limited algorithmic scalability
+Nuclear Structure and Reactions Modeling,University of Chicago Quantum Information Science Group Technology Development Team,52671.58562,67,5.895338433,2.703980676,964.683312,384.7003313,Interconnect congestion
+Geophysical Hazard Prediction,ORNL Climate Change Science Institute Prediction Unit,46056.57129,60,6.080296263,2.673864639,867.1758278,360.9699235,Memory bandwidth constraints
+Radiation Transport Modeling,Stanford Genome Technology Center Applied Science Group,45423.51805,60,5.730069429,2.671295758,893.4526157,332.3272848,Algorithmic instability with large datasets
+Quantum Climate Modeling,Harvard Center for the Environment Research Group,44552.37657,54,5.686566765,2.503912425,997.3543557,373.5352904,Performance regression with new compiler versions
+Accelerator Beam Dynamics Simulation,University of Illinois National Center for Supercomputing Applications Prediction Unit,54460.34611,53,5.191799312,2.611282047,968.0453779,397.8000483,Memory bandwidth constraints
+Quantum Climate Modeling,SLAC National Accelerator Laboratory Machine Learning Group Science Collaboration,49297.1475,59,5.560550257,2.60478946,1040.726225,376.1416904,I/O throughput limitations
+High Energy Physics Event Simulation,Brookhaven National Laboratory Collider-Accelerator Department Technology Development Team,49072.29531,60,6.078252776,2.591980402,985.0488335,398.2962543,Limited algorithmic scalability
+Quantum Climate Modeling,NERSC Data and Analytics Services Applied Science Group,52057.69661,52,4.961470428,2.565740995,1029.919323,365.5104073,Dependency on single vendor hardware
+Geophysical Hazard Prediction,Stanford Genome Technology Center Applied Science Group,47744.12807,58,4.866889033,2.572820947,861.5030263,312.1202218,Underutilization of SIMD instructions
+Climate Risk and Resilience Modeling,EPFL High Performance Computing Center Prediction Unit,44484.64779,52,5.775897201,3.106772941,936.457563,339.0787368,Software stack instability
+Computational Fluid Dynamics for Energy,LLNL High Energy Density Physics Group Research Group,53787.50247,58,6.244676002,2.960502768,960.7474535,348.5486964,Compiler optimization issues
+Turbulent Combustion Modeling,Harvard Center for the Environment Research Group,45961.0223,58,5.753668971,2.971676746,1121.197314,366.2857906,NUMA-related performance penalties
+Cryogenic Detector Simulation,University of Illinois National Center for Supercomputing Applications Research Group,47014.63245,64,6.332023966,2.382073569,1095.055209,325.3220419,Insufficient checkpoint/restart performance
+Quantum Climate Modeling,NERSC Data and Analytics Services Modeling Team,43472.6105,54,5.750532441,3.014134206,1042.87245,371.4206454,Interconnect congestion
+Turbulent Combustion Modeling,Oxford Materials Modelling Laboratory Simulation Consortium,49969.43699,58,5.922262287,2.718946034,1042.33876,352.5735407,Compiler optimization issues
+Renewable Energy Systems Optimization,SLAC National Accelerator Laboratory Machine Learning Group Applied Science Group,49501.04134,60,6.267544002,2.862764242,1055.919358,361.9047301,Unoptimized GPU kernel execution
+Radiation Transport Modeling,Stanford Genome Technology Center Data Science Unit,52047.46292,62,5.802992174,2.475513745,874.8466854,352.6257967,"Scaling inefficiencies beyond 1,000 nodes"
+Computational Chemistry for Energy Storage,Max Planck Institute for Plasma Physics Modeling Team,50274.84809,58,6.062827672,2.952063495,985.0019972,351.8575197,NUMA-related performance penalties
+Plasma Fusion Simulation,SLAC National Accelerator Laboratory Machine Learning Group HPC Lab,48780.07987,54,6.464741882,2.955060875,903.2635598,334.8110658,Power consumption spikes during peak loads
+Astrophysical Simulations,University of Chicago Quantum Information Science Group Data Science Unit,41480.6525,60,5.346494273,2.917779279,973.1103405,362.0447406,NUMA-related performance penalties
+High-Resolution Earth System Simulation,University of Illinois National Center for Supercomputing Applications Research Group,50827.64881,58,5.408990882,2.70139708,1066.95329,357.1349262,Scheduler queue delays
+Computational Chemistry for Energy Storage,LLNL High Energy Density Physics Group Applied Science Group,49501.01259,61,4.916948191,2.561207172,972.8146685,346.2048808,Unoptimized GPU kernel execution
+Geophysical Hazard Prediction,Columbia University Earth Institute Modeling Team,47651.90935,60,5.898262264,2.525890729,897.6815419,358.6058967,GPU memory capacity limits
+Turbulent Combustion Modeling,Berkeley Quantum Devices Group Science Collaboration,44983.11229,57,5.553782428,2.469352404,1086.15098,383.0822343,Dataset transfer delays between facilities
+Renewable Energy Systems Optimization,NERSC Data and Analytics Services Scientific Computing Division,44491.11727,65,6.000428288,2.357675808,888.3185217,353.190485,Fault tolerance under long runs
+Quantum Climate Modeling,Fermilab High Energy Physics Division Technology Development Team,46706.78167,53,5.564246154,2.75296366,932.5861209,384.160405,Insufficient profiling data for tuning
+Genome-scale Systems Biology,Stanford Genome Technology Center Science Collaboration,49408.0592,59,6.105717991,2.730880827,834.4581457,371.7031883,"Scaling inefficiencies beyond 1,000 nodes"
+Turbulent Combustion Modeling,University of Illinois National Center for Supercomputing Applications Technology Development Team,47686.74711,57,6.319709048,2.82344299,958.1364484,431.2238998,Power consumption spikes during peak loads
+High-Resolution Earth System Simulation,Berkeley Quantum Devices Group Prediction Unit,48223.90673,59,5.544442173,2.435932776,960.1726301,394.4420694,MPI collective operation contention
+Nuclear Structure and Reactions Modeling,ANL Materials Science Division Research Group,51099.29976,59,5.459904884,2.610813681,939.3357148,358.9207782,Interconnect congestion
+Quantum Climate Modeling,Tokyo Institute of Technology HPC Center Prediction Unit,38063.32137,55,5.575580059,2.813057768,951.4573869,370.1509957,Compiler optimization issues
+Plasma Fusion Simulation,SLAC National Accelerator Laboratory Machine Learning Group Applied Science Group,50675.43242,62,6.043830037,2.683897342,925.040324,367.2703032,Limited algorithmic scalability
+Plasma Fusion Simulation,LBNL Computational Research Division Scientific Computing Division,51229.13147,63,6.294201999,2.74844677,1009.333805,324.2114067,Fault tolerance under long runs
+Quantum Climate Modeling,Max Planck Institute for Plasma Physics Applied Science Group,47853.79297,67,6.134721556,2.59974414,911.5649551,374.1397521,MPI collective operation contention
+Plasma Fusion Simulation,Columbia University Earth Institute Scientific Computing Division,49417.20265,62,5.937805011,2.543302974,1029.976745,335.0896802,Insufficient burst buffer capacity
+Genome-scale Systems Biology,Harvard Center for the Environment Science Collaboration,50699.06787,63,5.09088748,2.449555187,898.8768628,374.3890059,Insufficient checkpoint/restart performance
+High-Resolution Earth System Simulation,Oxford Materials Modelling Laboratory HPC Lab,50268.86675,54,5.563778411,2.728092277,919.5330893,381.164435,Power consumption spikes during peak loads
+Plasma Fusion Simulation,Max Planck Institute for Plasma Physics Data Science Unit,50999.68218,58,6.132878303,2.623069649,1036.544916,370.7879022,Limited algorithmic scalability
+Molecular Materials Discovery,Stanford Genome Technology Center HPC Lab,46847.08348,59,6.363940117,2.734557776,944.267255,364.2735272,Dependency on single vendor hardware
+High Energy Physics Event Simulation,Harvard Center for the Environment Prediction Unit,49382.04959,66,5.260020682,2.585218263,1038.766054,351.878079,Limited algorithmic scalability
+AI Climate Modeling and Prediction,Columbia University Earth Institute Data Science Unit,43510.09951,53,5.299637556,2.811999008,955.3560411,335.1274632,Network latency bottlenecks
+Radiation Transport Modeling,Max Planck Institute for Plasma Physics Data Science Unit,54399.91711,57,5.392042141,2.829907967,941.1866162,330.7586373,Insufficient burst buffer capacity
+Genome-scale Systems Biology,University of Chicago Quantum Information Science Group Modeling Team,55625.04909,59,5.591933636,2.368377755,894.0915458,364.1087733,Power consumption spikes during peak loads
+Turbulent Combustion Modeling,LLNL High Energy Density Physics Group HPC Lab,51545.19331,60,5.737313341,2.402839026,995.6911997,347.0429946,Fault tolerance under long runs
+Nuclear Structure and Reactions Modeling,Princeton Plasma Physics Laboratory Applied Science Group,46139.56951,57,5.961826716,2.952457657,1010.314064,350.7608794,Limited algorithmic scalability
+High-Resolution Earth System Simulation,SLAC National Accelerator Laboratory Machine Learning Group Applied Science Group,54562.4735,60,5.621418907,2.513243179,924.8630939,371.0492674,Dependency on single vendor hardware
+Renewable Energy Systems Optimization,Los Alamos National Laboratory Materials Physics and Applications Applied Science Group,46617.92938,62,6.470391899,2.289217236,870.6152795,343.0631444,Thermal throttling under sustained load
+Nuclear Structure and Reactions Modeling,Berkeley Quantum Devices Group Modeling Team,47671.72659,56,5.850415829,2.79469768,1137.08111,347.2392591,Load imbalance in parallel workloads
+Accelerator Beam Dynamics Simulation,ANL Materials Science Division Data Science Unit,53679.12443,66,5.675584011,2.754867253,841.0455291,370.0479884,Limited mixed-precision adoption
+High-Resolution Earth System Simulation,University of Illinois National Center for Supercomputing Applications HPC Lab,51064.24975,58,6.25557101,2.616878894,969.8271864,389.9254585,Performance regression with new compiler versions
+Exascale Astrophysical Plasma Simulation,LLNL High Energy Density Physics Group Research Group,44726.82165,58,5.861740058,2.41487343,923.0831107,369.8371839,Debugging complexity in large-scale runs
+Nuclear Structure and Reactions Modeling,SLAC National Accelerator Laboratory Machine Learning Group Simulation Consortium,49634.74144,63,5.997839314,2.67903722,1103.727876,405.7355012,Interconnect congestion
+Radiation Transport Modeling,Caltech Center for Advanced Computing Technology Development Team,47306.27038,63,5.68313862,2.804343564,1076.584975,388.6851043,Interconnect congestion
+High-Resolution Earth System Simulation,NERSC Data and Analytics Services Science Collaboration,45164.05278,60,5.421564278,2.685303961,927.6604891,365.0385267,Limited algorithmic scalability
+Cryogenic Detector Simulation,EPFL High Performance Computing Center Simulation Consortium,46978.53225,56,5.563003238,2.805570164,998.2403962,373.3413892,Scheduler queue delays
+Plasma Fusion Simulation,Princeton Plasma Physics Laboratory Scientific Computing Division,44360.02015,56,5.537958782,2.684064697,923.4651654,348.4277787,Insufficient checkpoint/restart performance
+Molecular Materials Discovery,ORNL Climate Change Science Institute Modeling Team,45152.27443,54,5.617299107,2.587077158,979.2603273,337.2076398,Unoptimized GPU kernel execution
+Plasma Fusion Simulation,Los Alamos National Laboratory Materials Physics and Applications Science Collaboration,47975.81825,64,6.084666357,2.554738072,909.8651444,316.5281288,Dependency on single vendor hardware
+Computational Fluid Dynamics for Energy,University of Chicago Quantum Information Science Group Modeling Team,45559.16736,50,5.991145687,2.468148358,962.5160329,319.1968656,Insufficient burst buffer capacity
+Radiation Transport Modeling,Brookhaven National Laboratory Collider-Accelerator Department Modeling Team,50004.7165,56,5.694755095,2.929188612,894.6831626,369.8905811,Unoptimized GPU kernel execution
+Molecular Materials Discovery,Caltech Center for Advanced Computing Technology Development Team,42235.20834,56,5.31482968,2.733083201,1105.644547,350.8347512,Scheduler queue delays
+Plasma Fusion Simulation,Max Planck Institute for Plasma Physics Simulation Consortium,46480.75708,60,5.796709436,2.434602461,821.3406397,371.58091,Data preprocessing bottlenecks
+Nuclear Structure and Reactions Modeling,University of Chicago Quantum Information Science Group Prediction Unit,45075.00914,62,5.981028367,2.67230451,1177.081411,380.162385,Data preprocessing bottlenecks
+Renewable Energy Systems Optimization,LLNL High Energy Density Physics Group Science Collaboration,45198.92225,59,5.549207873,2.997935111,1054.197848,387.6624959,Algorithmic instability with large datasets
+Radiation Transport Modeling,MIT Plasma Science and Fusion Center Prediction Unit,48174.39635,60,6.339133023,2.593710745,947.5998582,309.9300973,Dependency on single vendor hardware
+Genome-scale Systems Biology,Berkeley Quantum Devices Group Research Group,50996.82641,52,6.014861222,2.810225304,948.1385057,428.7351694,Underutilization of SIMD instructions
+Computational Fluid Dynamics for Energy,Georgia Tech Computational Combustion Laboratory Modeling Team,43988.50606,54,6.366001889,2.420221829,998.6577904,354.5317963,Network latency bottlenecks
+Computational Chemistry for Energy Storage,Brookhaven National Laboratory Collider-Accelerator Department Science Collaboration,43438.08265,58,5.644504013,2.37303585,927.6598218,345.8894656,GPU memory capacity limits
+High Energy Physics Event Simulation,Princeton Plasma Physics Laboratory Data Science Unit,53667.66696,55,5.43694015,2.78718357,997.8088918,363.5328661,Interconnect congestion
+AI Climate Modeling and Prediction,Cambridge Computational Biology Group Prediction Unit,46770.43195,64,5.631110497,2.497624457,924.7207937,316.0828974,I/O throughput limitations
+Turbulent Combustion Modeling,Tokyo Institute of Technology HPC Center Scientific Computing Division,50776.88649,62,5.743758591,2.435037621,989.8592629,336.0602505,NUMA-related performance penalties
+Accelerator Beam Dynamics Simulation,Los Alamos National Laboratory Materials Physics and Applications HPC Lab,49317.58925,51,6.051294232,2.473492274,989.4757412,331.2966792,Underutilization of SIMD instructions
+Computational Chemistry for Energy Storage,Stanford Genome Technology Center Data Science Unit,44014.30489,57,5.859314473,2.652533706,1114.278989,382.4980714,NUMA-related performance penalties
+High-Resolution Earth System Simulation,NERSC Data and Analytics Services Applied Science Group,54511.1439,60,5.502270511,2.528276552,978.7890428,348.4244856,Power consumption spikes during peak loads
+AI Climate Modeling and Prediction,Columbia University Earth Institute Prediction Unit,49423.37507,58,5.973468935,2.153991765,970.4347533,333.1379207,MPI collective operation contention
+Accelerator Beam Dynamics Simulation,MIT Plasma Science and Fusion Center Applied Science Group,47558.30858,64,6.152439493,2.441369835,857.9306213,370.0661603,Algorithmic instability with large datasets
+Genome-scale Systems Biology,ORNL Climate Change Science Institute Scientific Computing Division,44832.35259,56,6.430171108,2.981503629,970.9360437,373.8980634,Insufficient profiling data for tuning
+Geophysical Hazard Prediction,Georgia Tech Computational Combustion Laboratory Scientific Computing Division,50989.95994,52,5.692645211,2.667904149,1056.513268,372.5475553,Dependency on single vendor hardware
+Plasma Fusion Simulation,Berkeley Quantum Devices Group Scientific Computing Division,46471.37441,50,5.463652923,3.089127981,1087.919456,367.76507,Fault tolerance under long runs
+Molecular Materials Discovery,Cambridge Computational Biology Group HPC Lab,49524.91743,57,6.07720605,2.79850753,848.976127,341.6863331,Dataset transfer delays between facilities
+Climate Risk and Resilience Modeling,Fermilab High Energy Physics Division Modeling Team,48922.07416,58,6.144336675,2.931944724,1071.013158,408.1494332,Power consumption spikes during peak loads
+Computational Fluid Dynamics for Energy,Berkeley Quantum Devices Group Simulation Consortium,51121.86751,62,5.779332068,2.647791333,1095.73086,377.3478611,NUMA-related performance penalties
+Accelerator Beam Dynamics Simulation,Columbia University Earth Institute Prediction Unit,50076.21215,56,5.895053936,2.600268781,957.367898,373.0196562,Scheduler queue delays
+Genome-scale Systems Biology,Caltech Center for Advanced Computing Data Science Unit,45780.85844,60,6.357289552,2.899490249,965.0321622,374.4113832,NUMA-related performance penalties
+Exascale Astrophysical Plasma Simulation,LBNL Computational Research Division Science Collaboration,54328.90492,56,6.589421952,3.120349227,1274.662186,399.2244155,Thermal throttling under sustained load
+Computational Chemistry for Energy Storage,Stanford Genome Technology Center Modeling Team,53361.79563,47,7.038070278,3.466977495,1362.15244,393.8683798,Debugging complexity in large-scale runs
+Astrophysical Simulations,Tokyo Institute of Technology HPC Center Prediction Unit,49564.63056,52,6.164536903,3.275244409,1316.735831,435.2044379,Insufficient burst buffer capacity
+Nuclear Structure and Reactions Modeling,Max Planck Institute for Plasma Physics Technology Development Team,53700.99715,62,5.973548464,3.719815826,1260.518394,468.6556247,Dataset transfer delays between facilities
+Renewable Energy Systems Optimization,SLAC National Accelerator Laboratory Machine Learning Group Data Science Unit,53577.70711,58,6.89016626,3.050535478,1253.629932,433.8050842,"Scaling inefficiencies beyond 1,000 nodes"
+Exascale Astrophysical Plasma Simulation,LBNL Computational Research Division Science Collaboration,47698.59349,53,5.610535362,3.492968521,1291.776136,440.4261798,Load imbalance in parallel workloads
+Extreme-Scale Materials Modeling,Cambridge Computational Biology Group Research Group,51203.46548,46,5.960957871,3.483672216,1366.244621,382.7418052,Power consumption spikes during peak loads
+Renewable Energy Systems Optimization,LBNL Computational Research Division Research Group,57861.26989,48,6.209615517,3.548825134,1278.11659,409.9899738,Insufficient burst buffer capacity
+Exascale Astrophysical Plasma Simulation,Princeton Plasma Physics Laboratory Technology Development Team,54624.92547,52,5.922261578,3.768997981,1267.025985,417.7904917,I/O throughput limitations
+High-Resolution Earth System Simulation,Berkeley Quantum Devices Group Research Group,51998.25599,51,6.60920724,3.094892144,1229.654394,402.4795564,Compiler optimization issues
+Astrophysical Simulations,Stanford Genome Technology Center Data Science Unit,55151.59239,50,6.091556462,3.754812188,1322.414839,457.5292535,Load imbalance in parallel workloads
+Genome-scale Systems Biology,Caltech Center for Advanced Computing Simulation Consortium,53797.2537,61,5.539641227,3.449170097,1271.738109,371.9945537,Underutilization of SIMD instructions
+Climate Risk and Resilience Modeling,ORNL Climate Change Science Institute Science Collaboration,49250.70353,54,5.518885039,3.615528894,1235.398014,449.8175907,Dependency on single vendor hardware
+AI Climate Modeling and Prediction,ANL Materials Science Division Prediction Unit,48138.10052,60,6.485190378,3.609606286,1137.357548,425.9188887,Insufficient checkpoint/restart performance
+Geophysical Hazard Prediction,SLAC National Accelerator Laboratory Machine Learning Group Science Collaboration,54797.51564,52,6.648674951,3.796932876,1351.406682,399.4912867,Fault tolerance under long runs
+Exascale Astrophysical Plasma Simulation,Columbia University Earth Institute Modeling Team,49521.03768,57,6.278152184,3.589074074,1295.352361,437.7303424,GPU memory capacity limits
+High-Resolution Earth System Simulation,Stanford Genome Technology Center Modeling Team,58963.9608,52,6.80080002,3.166908987,1264.949352,419.8156477,NUMA-related performance penalties
+High Energy Physics Event Simulation,Caltech Center for Advanced Computing Science Collaboration,53877.14102,54,6.588157276,3.761213594,1235.483528,446.8316762,Software stack instability
+Computational Fluid Dynamics for Energy,Georgia Tech Computational Combustion Laboratory Science Collaboration,52472.84965,45,6.384919316,3.070757324,1236.719316,421.3834431,Algorithmic instability with large datasets
+Radiation Transport Modeling,University of Chicago Quantum Information Science Group Modeling Team,59588.22478,54,6.261653495,3.146671014,1202.815251,390.0469109,Performance regression with new compiler versions
+Quantum Climate Modeling,Caltech Center for Advanced Computing Prediction Unit,52391.15889,59,6.896414449,3.55811785,1217.950532,412.3587832,Fault tolerance under long runs
+Exascale Astrophysical Plasma Simulation,EPFL High Performance Computing Center Research Group,56652.96983,59,5.973805552,3.582655543,1247.445215,446.3701449,Data preprocessing bottlenecks
+Nuclear Structure and Reactions Modeling,Stanford Genome Technology Center Applied Science Group,54096.98097,52,6.481479317,3.739726407,1227.332836,467.3411119,Network latency bottlenecks
+Astrophysical Simulations,Max Planck Institute for Plasma Physics Simulation Consortium,63416.25544,54,5.937203479,3.126700614,1175.50719,439.287841,Debugging complexity in large-scale runs
+Quantum Climate Modeling,Tokyo Institute of Technology HPC Center Prediction Unit,47217.92758,49,7.227271827,3.735253811,1317.864484,431.8159984,NUMA-related performance penalties
+Turbulent Combustion Modeling,Cambridge Computational Biology Group Research Group,60594.95491,57,6.293083906,3.427149073,1224.281814,434.4941418,Compiler optimization issues
+Astrophysical Simulations,Georgia Tech Computational Combustion Laboratory Simulation Consortium,51112.86842,52,7.097253956,3.274988664,1240.565908,463.3985348,MPI collective operation contention
+Renewable Energy Systems Optimization,Fermilab High Energy Physics Division Simulation Consortium,54239.23924,54,6.168115806,3.207072114,1262.408991,409.1751489,Limited algorithmic scalability
+Quantum Climate Modeling,MIT Plasma Science and Fusion Center Research Group,46524.87679,61,6.576760842,3.457671886,1217.713929,447.8503771,Underutilization of SIMD instructions
+Extreme-Scale Materials Modeling,NERSC Data and Analytics Services Science Collaboration,52267.77323,55,6.283360321,3.30026892,1217.676098,384.4673093,Debugging complexity in large-scale runs
+Geophysical Hazard Prediction,Fermilab High Energy Physics Division Scientific Computing Division,57419.63559,65,6.004125114,3.47371796,1323.293816,393.5445286,Load imbalance in parallel workloads
+Genome-scale Systems Biology,Oxford Materials Modelling Laboratory HPC Lab,51424.96975,54,6.290556952,3.367750632,1178.384761,432.955766,Load imbalance in parallel workloads
+Molecular Materials Discovery,Brookhaven National Laboratory Collider-Accelerator Department Science Collaboration,54668.14959,50,6.451154152,3.235221998,1190.924963,446.5083702,Dataset transfer delays between facilities
+AI Climate Modeling and Prediction,Harvard Center for the Environment Data Science Unit,50405.18034,58,6.30138051,3.826850976,1268.062249,448.6887161,Insufficient checkpoint/restart performance
+Nuclear Structure and Reactions Modeling,NERSC Data and Analytics Services Data Science Unit,56335.73974,51,6.52702265,3.239688285,1217.695616,503.1492719,Thermal throttling under sustained load
+High-Resolution Earth System Simulation,University of Chicago Quantum Information Science Group Modeling Team,53272.27357,54,6.962843591,3.194863349,1181.882652,390.3410205,"Scaling inefficiencies beyond 1,000 nodes"
+Astrophysical Simulations,Stanford Genome Technology Center Simulation Consortium,51255.96776,59,6.117225873,3.483534126,1266.080727,412.2605419,Fault tolerance under long runs
+Molecular Materials Discovery,NERSC Data and Analytics Services Modeling Team,55080.64866,59,6.27741064,3.699170701,1169.421204,433.8069181,Insufficient burst buffer capacity
+Climate Risk and Resilience Modeling,ANL Materials Science Division HPC Lab,54102.21267,51,5.856375297,3.406766145,1286.303333,459.5767632,Dependency on single vendor hardware
+Astrophysical Simulations,Tokyo Institute of Technology HPC Center Prediction Unit,55516.03558,60,6.078260102,3.379018663,1260.889259,442.6525915,Underutilization of SIMD instructions
+Radiation Transport Modeling,Max Planck Institute for Plasma Physics Technology Development Team,55112.92826,57,6.396945696,3.089625567,1247.833832,425.692033,Fault tolerance under long runs
+Geophysical Hazard Prediction,LLNL High Energy Density Physics Group Technology Development Team,51273.4063,51,6.998684871,3.488360674,1296.117198,380.0394404,NUMA-related performance penalties
+Turbulent Combustion Modeling,Los Alamos National Laboratory Materials Physics and Applications Data Science Unit,54601.21123,57,7.38008642,3.570938149,1157.862221,369.7468985,Fault tolerance under long runs
+Renewable Energy Systems Optimization,University of Illinois National Center for Supercomputing Applications Prediction Unit,53736.14127,53,6.478305975,3.288061755,1285.374956,406.5060597,Debugging complexity in large-scale runs
+Geophysical Hazard Prediction,LLNL High Energy Density Physics Group HPC Lab,53060.30016,53,6.653484546,3.234354303,1335.242086,431.1761114,MPI collective operation contention
+Nuclear Structure and Reactions Modeling,Columbia University Earth Institute Data Science Unit,49125.63503,54,6.36164184,3.570372601,1139.75806,434.2612055,MPI collective operation contention
+High Energy Physics Event Simulation,Cambridge Computational Biology Group Applied Science Group,46530.16202,62,6.214262137,3.491411685,1206.590488,454.581868,NUMA-related performance penalties
+Turbulent Combustion Modeling,Los Alamos National Laboratory Materials Physics and Applications Prediction Unit,48636.84145,46,6.159586754,3.616181726,1294.5703,438.0910736,Network latency bottlenecks
+Nuclear Structure and Reactions Modeling,MIT Plasma Science and Fusion Center Technology Development Team,56675.76802,49,6.337107617,3.417040614,1111.241512,441.0295844,Network latency bottlenecks
+Geophysical Hazard Prediction,Georgia Tech Computational Combustion Laboratory Modeling Team,53725.38896,57,7.295553072,3.24114372,1215.441946,468.825299,Insufficient profiling data for tuning
+Quantum Climate Modeling,SLAC National Accelerator Laboratory Machine Learning Group Data Science Unit,53979.24189,52,6.46830757,3.391725705,1273.131587,412.2971255,"Scaling inefficiencies beyond 1,000 nodes"
+Accelerator Beam Dynamics Simulation,Oxford Materials Modelling Laboratory Science Collaboration,50829.00742,56,6.066851054,3.141836181,1405.633718,456.6890077,Compiler optimization issues
+Renewable Energy Systems Optimization,MIT Plasma Science and Fusion Center Modeling Team,48880.09246,60,5.718373163,3.303187885,1287.714786,391.893329,Insufficient profiling data for tuning
+Turbulent Combustion Modeling,Columbia University Earth Institute Simulation Consortium,47443.62995,55,6.411937168,3.534858617,1205.343827,491.5100169,Underutilization of SIMD instructions
+Radiation Transport Modeling,Brookhaven National Laboratory Collider-Accelerator Department Simulation Consortium,53793.09806,57,7.049623546,3.313695696,1145.853844,385.3821596,Performance regression with new compiler versions
+Quantum Climate Modeling,Harvard Center for the Environment Prediction Unit,56226.46885,53,6.898736394,3.203702189,1257.490237,454.139634,Insufficient profiling data for tuning
+Exascale Astrophysical Plasma Simulation,EPFL High Performance Computing Center Science Collaboration,49083.33577,60,6.666730687,3.223074145,1329.891628,456.757183,Scheduler queue delays
+Geophysical Hazard Prediction,University of Illinois National Center for Supercomputing Applications Prediction Unit,47130.40035,57,6.225942661,3.09862541,1312.384197,431.4592604,Scheduler queue delays
+Molecular Materials Discovery,Brookhaven National Laboratory Collider-Accelerator Department Scientific Computing Division,53951.77165,64,7.252932985,3.905666617,1303.861807,424.5418996,Algorithmic instability with large datasets
+Geophysical Hazard Prediction,LLNL High Energy Density Physics Group Data Science Unit,50616.82646,53,6.799683023,3.33409522,1144.737059,469.0411477,MPI collective operation contention
+Computational Fluid Dynamics for Energy,MIT Plasma Science and Fusion Center Modeling Team,50724.76841,58,6.02365109,3.526938987,1394.303209,429.9571451,Software stack instability
+Extreme-Scale Materials Modeling,Oxford Materials Modelling Laboratory Scientific Computing Division,51111.55583,58,6.392101372,3.671637927,1322.148316,435.0170184,Limited mixed-precision adoption
+Geophysical Hazard Prediction,LBNL Computational Research Division Science Collaboration,50339.99636,52,6.194271998,3.526065098,1161.35299,432.1288749,I/O throughput limitations
+AI Climate Modeling and Prediction,Stanford Genome Technology Center Simulation Consortium,45421.41715,52,6.274847115,3.224011455,1239.384463,440.9410042,Underutilization of SIMD instructions
+Computational Chemistry for Energy Storage,Tokyo Institute of Technology HPC Center Scientific Computing Division,51732.0398,54,6.980800792,3.388959295,1410.472963,420.4523909,Insufficient checkpoint/restart performance
+Climate Risk and Resilience Modeling,NERSC Data and Analytics Services Science Collaboration,53368.71123,52,6.577836025,3.393365196,1285.768983,448.5806779,Algorithmic instability with large datasets
+Nuclear Structure and Reactions Modeling,LBNL Computational Research Division Research Group,55919.76889,53,6.561649352,3.360025004,1120.105931,405.5831546,I/O throughput limitations
+Plasma Fusion Simulation,ORNL Climate Change Science Institute Data Science Unit,47544.89169,50,6.030334131,3.363482703,1247.026279,462.9421565,Performance regression with new compiler versions
+Cryogenic Detector Simulation,Princeton Plasma Physics Laboratory Applied Science Group,60176.13457,56,5.679456771,4.029784578,1253.499968,452.0113707,Performance regression with new compiler versions
+Accelerator Beam Dynamics Simulation,Los Alamos National Laboratory Materials Physics and Applications Modeling Team,56496.84883,55,6.071304735,3.247596289,1160.434488,473.1572303,Load imbalance in parallel workloads
+Computational Fluid Dynamics for Energy,Brookhaven National Laboratory Collider-Accelerator Department Applied Science Group,60393.78868,58,6.17307972,3.171892503,1291.826162,443.60115,Load imbalance in parallel workloads
+AI Climate Modeling and Prediction,LLNL High Energy Density Physics Group Scientific Computing Division,49083.56488,52,6.186838194,3.321060802,1249.450162,487.3616472,GPU memory capacity limits
+Computational Fluid Dynamics for Energy,Brookhaven National Laboratory Collider-Accelerator Department Science Collaboration,54102.43948,48,6.189927449,3.448194518,1208.726654,451.8130027,Debugging complexity in large-scale runs
+Astrophysical Simulations,Princeton Plasma Physics Laboratory Data Science Unit,53457.45224,57,6.171140657,3.576206042,1155.912728,476.2081422,Performance regression with new compiler versions
+Genome-scale Systems Biology,Columbia University Earth Institute Prediction Unit,57727.90847,49,6.074419273,3.653908075,1226.069817,411.8409388,I/O throughput limitations
+Molecular Materials Discovery,Oxford Materials Modelling Laboratory Science Collaboration,60314.96114,58,5.598282136,3.610600324,1253.352389,403.8542515,"Scaling inefficiencies beyond 1,000 nodes"
+Turbulent Combustion Modeling,Harvard Center for the Environment Science Collaboration,53030.99585,50,6.662767649,3.430286459,1185.455617,399.8214839,Fault tolerance under long runs
+Extreme-Scale Materials Modeling,Princeton Plasma Physics Laboratory Data Science Unit,47042.20986,54,6.404669876,3.363015499,1196.024147,461.6199487,Insufficient checkpoint/restart performance
+Geophysical Hazard Prediction,SLAC National Accelerator Laboratory Machine Learning Group Scientific Computing Division,55375.92682,54,5.852321636,3.658417233,1118.634325,437.4809776,Underutilization of SIMD instructions
+Molecular Materials Discovery,Brookhaven National Laboratory Collider-Accelerator Department Scientific Computing Division,55387.05141,53,5.623986424,3.412679742,1197.16484,363.3478948,I/O throughput limitations
+Extreme-Scale Materials Modeling,Los Alamos National Laboratory Materials Physics and Applications Scientific Computing Division,48051.11193,60,6.253972429,3.367864265,1257.037715,423.167299,Thermal throttling under sustained load
+Renewable Energy Systems Optimization,LLNL High Energy Density Physics Group Research Group,53355.95564,62,6.303786956,3.297347042,1236.933078,460.6353587,Thermal throttling under sustained load
+Cryogenic Detector Simulation,Los Alamos National Laboratory Materials Physics and Applications Data Science Unit,52355.18647,56,6.518166186,3.583438535,1240.70689,438.6196736,Power consumption spikes during peak loads
+Accelerator Beam Dynamics Simulation,ANL Materials Science Division Scientific Computing Division,45283.90442,58,6.181296333,3.359357934,1330.805157,426.3267896,"Scaling inefficiencies beyond 1,000 nodes"
+Molecular Materials Discovery,Oxford Materials Modelling Laboratory Modeling Team,54163.33485,48,6.267580574,3.57331708,1256.658459,446.671471,GPU memory capacity limits
+High Energy Physics Event Simulation,EPFL High Performance Computing Center Scientific Computing Division,55055.85804,53,6.351438008,3.639734732,1118.881914,463.2583476,Debugging complexity in large-scale runs
+Computational Fluid Dynamics for Energy,NERSC Data and Analytics Services Science Collaboration,54032.10913,59,6.483270575,3.883062743,1246.352021,456.5351696,Insufficient burst buffer capacity
+Plasma Fusion Simulation,Los Alamos National Laboratory Materials Physics and Applications Data Science Unit,49821.20338,59,6.047377446,3.261457837,1359.284903,452.3278143,I/O throughput limitations
+Computational Fluid Dynamics for Energy,LBNL Computational Research Division Science Collaboration,59761.24108,64,7.245355834,4.264830398,1320.933247,417.839153,Limited mixed-precision adoption
+High Energy Physics Event Simulation,Fermilab High Energy Physics Division Scientific Computing Division,51426.58813,51,6.426179673,3.131805834,1254.810769,423.7995187,Unoptimized GPU kernel execution
+Molecular Materials Discovery,Oxford Materials Modelling Laboratory Modeling Team,49748.23776,55,7.251372485,3.805586066,1474.601085,380.1002226,Limited algorithmic scalability
+Accelerator Beam Dynamics Simulation,Caltech Center for Advanced Computing Data Science Unit,56616.28778,58,6.126618866,3.316971388,1128.52194,417.4441698,Network latency bottlenecks
+Exascale Astrophysical Plasma Simulation,MIT Plasma Science and Fusion Center Applied Science Group,52538.76929,57,6.054914552,3.446247816,1116.75158,426.8526341,Software stack instability
+Renewable Energy Systems Optimization,Berkeley Quantum Devices Group Research Group,49175.6585,56,6.392151486,3.154216893,1236.197402,440.1227605,Data preprocessing bottlenecks
+Quantum Climate Modeling,EPFL High Performance Computing Center Applied Science Group,50343.2022,53,6.15903847,3.209654485,1137.973904,435.127202,Algorithmic instability with large datasets
+Turbulent Combustion Modeling,Max Planck Institute for Plasma Physics HPC Lab,52438.36784,58,5.595916502,3.622149709,1194.793593,413.7569639,NUMA-related performance penalties
+Cryogenic Detector Simulation,Harvard Center for the Environment Research Group,52601.01624,53,5.988072369,3.327953695,1208.442449,479.4899699,"Scaling inefficiencies beyond 1,000 nodes"
+Computational Fluid Dynamics for Energy,LLNL High Energy Density Physics Group Science Collaboration,61079.80816,51,5.957822051,3.644561426,1095.132754,455.2641254,MPI collective operation contention
+Turbulent Combustion Modeling,Brookhaven National Laboratory Collider-Accelerator Department Prediction Unit,46312.14074,55,5.976369641,3.610619795,1283.876887,403.2508651,Insufficient burst buffer capacity
+AI Climate Modeling and Prediction,Georgia Tech Computational Combustion Laboratory HPC Lab,53197.84826,53,6.589626019,3.382625304,1221.857945,390.6731913,"Scaling inefficiencies beyond 1,000 nodes"
+High-Resolution Earth System Simulation,Stanford Genome Technology Center Prediction Unit,52653.94106,59,6.62811145,2.97591726,1214.867616,413.7447022,Limited algorithmic scalability
+Exascale Astrophysical Plasma Simulation,Oxford Materials Modelling Laboratory Scientific Computing Division,57951.59822,49,6.475346633,3.293289915,1293.714981,455.5531728,Network latency bottlenecks
+Accelerator Beam Dynamics Simulation,Harvard Center for the Environment Simulation Consortium,48088.96384,47,5.910428696,3.813730169,1368.794493,392.1347151,"Scaling inefficiencies beyond 1,000 nodes"
+Molecular Materials Discovery,Princeton Plasma Physics Laboratory Simulation Consortium,53388.31475,54,6.17279041,3.27463736,1285.771925,414.6970852,Scheduler queue delays
+AI Climate Modeling and Prediction,Stanford Genome Technology Center Data Science Unit,56722.14403,46,6.106284131,3.675880472,1384.4644,465.6951202,"Scaling inefficiencies beyond 1,000 nodes"
+Climate Risk and Resilience Modeling,EPFL High Performance Computing Center Research Group,53070.51158,53,6.365879501,3.029865033,1133.006268,453.4179147,Thermal throttling under sustained load
+Nuclear Structure and Reactions Modeling,Princeton Plasma Physics Laboratory HPC Lab,51568.21394,57,6.469151991,3.557067619,1179.523011,420.8716983,Performance regression with new compiler versions
+Genome-scale Systems Biology,Cambridge Computational Biology Group Technology Development Team,47766.61453,56,6.465152293,3.206890413,1189.337377,391.1451458,Software stack instability
+Geophysical Hazard Prediction,Max Planck Institute for Plasma Physics Data Science Unit,44394.66153,50,5.609402038,3.453091198,1222.919109,423.5284031,I/O throughput limitations
+High-Resolution Earth System Simulation,Fermilab High Energy Physics Division Technology Development Team,50206.28758,52,6.615820231,3.735883954,1275.596356,448.2846464,Thermal throttling under sustained load
+Nuclear Structure and Reactions Modeling,MIT Plasma Science and Fusion Center Research Group,45548.14348,53,6.55602752,3.609282728,1305.775809,417.5898493,Data preprocessing bottlenecks
+Extreme-Scale Materials Modeling,SLAC National Accelerator Laboratory Machine Learning Group Modeling Team,55686.85874,56,6.978227085,3.841804354,1192.234935,471.4100704,Limited algorithmic scalability
+Turbulent Combustion Modeling,Georgia Tech Computational Combustion Laboratory Data Science Unit,51614.20347,57,6.259799204,3.426437036,1284.79593,397.8429253,Software stack instability
+Plasma Fusion Simulation,Oxford Materials Modelling Laboratory Simulation Consortium,45294.65712,57,5.815286642,3.443617754,1265.510911,450.4885287,Insufficient burst buffer capacity
+Astrophysical Simulations,LLNL High Energy Density Physics Group Data Science Unit,46437.47092,57,7.06576317,3.548206346,1097.540573,428.3107956,Unoptimized GPU kernel execution
+Extreme-Scale Materials Modeling,NERSC Data and Analytics Services Simulation Consortium,51422.00355,54,6.869498812,3.516069092,1220.702179,418.8725104,Insufficient burst buffer capacity
+High Energy Physics Event Simulation,MIT Plasma Science and Fusion Center Prediction Unit,54837.833,53,6.152319528,3.479828732,1255.463438,408.3443884,Limited algorithmic scalability
+Extreme-Scale Materials Modeling,University of Illinois National Center for Supercomputing Applications Scientific Computing Division,57079.85291,49,6.020358053,3.463477326,1248.703601,402.972035,Data preprocessing bottlenecks
+Molecular Materials Discovery,Caltech Center for Advanced Computing Simulation Consortium,50316.97932,57,5.809952223,3.149178481,1169.095567,470.1793257,NUMA-related performance penalties
+Genome-scale Systems Biology,Princeton Plasma Physics Laboratory Data Science Unit,55003.30231,55,6.141756456,3.566855875,1271.069248,384.1459962,Software stack instability

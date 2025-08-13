@@ -1,0 +1,61 @@
+Workload,Project_Name,Work_Units,Nodes,Power_per_Node_kW,Runtime_h,kWh,Perf_W,Key_Risks
+Radiation Transport Modeling,Los Alamos National Laboratory Materials Physics and Applications HPC Lab,77500,84,6.025785793,6.580067178,3195.46466,311.3623384,"Scaling inefficiencies beyond 1,000 nodes"
+Geophysical Hazard Prediction,LLNL High Energy Density Physics Group Research Group,71911,89,6.084229933,6.568462243,3460.099653,317.5045992,Debugging complexity in large-scale runs
+AI Climate Modeling and Prediction,LLNL High Energy Density Physics Group HPC Lab,74994,88,6.037844946,6.759602425,3466.035194,367.295924,MPI collective operation contention
+Nuclear Structure and Reactions Modeling,EPFL High Performance Computing Center HPC Lab,67240,87,5.705583206,6.600044522,3449.966582,308.6689853,Network latency bottlenecks
+Plasma Fusion Simulation,Caltech Center for Advanced Computing HPC Lab,74083,87,6.13326242,6.781982402,3229.082544,331.7422282,Power consumption spikes during peak loads
+Nuclear Structure and Reactions Modeling,LBNL Computational Research Division Modeling Team,87329,95,6.157570899,6.672121445,3628.133864,316.5592237,Memory bandwidth constraints
+Computational Fluid Dynamics for Energy,University of Chicago Quantum Information Science Group Modeling Team,86392,101,5.700895342,6.651462586,3685.746927,293.5102205,I/O throughput limitations
+Nuclear Structure and Reactions Modeling,Stanford Genome Technology Center Modeling Team,92154,101,6.096193307,7.07017966,3858.456742,352.1717975,Insufficient checkpoint/restart performance
+Quantum Climate Modeling,University of Illinois NCSA HPC Lab,82297,97,4.805090204,7.183559074,3669.921956,305.8970106,Load imbalance in parallel workloads
+Quantum Climate Modeling,Columbia University Earth Institute Simulation Consortium,81764,108,5.898722168,6.267204082,4146.357127,315.8674726,Data preprocessing bottlenecks
+Renewable Energy Systems Optimization,Los Alamos National Laboratory Materials Physics and Applications Simulation Consortium,86319,83,6.195144128,4.918344331,3080.205442,308.0973982,Insufficient checkpoint/restart performance
+Plasma Fusion Simulation,LLNL High Energy Density Physics Group Modeling Team,91218,79,5.930175364,4.999973296,2951.421553,335.98328,Scheduler queue delays
+Plasma Fusion Simulation,EPFL High Performance Computing Center Modeling Team,81111,75,5.835838757,5.30335545,3124.948218,325.9602396,GPU memory capacity limits
+Turbulent Combustion Modeling,EPFL High Performance Computing Center HPC Lab,92440,88,6.579809726,4.803746192,3214.022626,322.8817347,Data preprocessing bottlenecks
+Accelerator Beam Dynamics Simulation,Harvard Center for the Environment Modeling Team,96035,81,6.31965062,5.630508512,3192.787545,295.8280112,Thermal throttling under sustained load
+Nuclear Structure and Reactions Modeling,EPFL High Performance Computing Center Simulation Consortium,99405,106,6.557733951,5.747434139,3566.078252,303.12746,Load imbalance in parallel workloads
+Cryogenic Detector Simulation,LBNL Computational Research Division Research Group,99221,96,5.916611146,5.644134751,4067.585988,338.9067233,Interconnect congestion
+Astrophysical Simulations,Princeton Plasma Physics Laboratory HPC Lab,99347,95,6.223031813,5.194352975,4182.046552,311.3876713,Thermal throttling under sustained load
+Accelerator Beam Dynamics Simulation,Stanford Genome Technology Center Modeling Team,103810,93,6.199197653,5.361766763,3931.475724,359.2391172,Memory bandwidth constraints
+Nuclear Structure and Reactions Modeling,Fermilab High Energy Physics Division Modeling Team,99594,95,6.895648789,5.689708342,3574.21563,373.1815535,GPU memory capacity limits
+Turbulent Combustion Modeling,ANL Materials Science Division Modeling Team,94713,69,5.624102826,5.754036937,2529.234266,632.3280101,Debugging complexity in large-scale runs
+Turbulent Combustion Modeling,NERSC Data and Analytics Services Research Group,98198,72,6.193650587,5.557651388,2184.128954,704.5275767,Insufficient checkpoint/restart performance
+Computational Fluid Dynamics for Energy,Georgia Tech Computational Combustion Laboratory Simulation Consortium,92243,68,5.514845673,5.517206841,2335.892471,670.1122872,Dataset transfer delays between facilities
+Plasma Fusion Simulation,LLNL High Energy Density Physics Group Simulation Consortium,95998,74,5.864516308,5.29953832,2454.031029,571.1362436,MPI collective operation contention
+Nuclear Structure and Reactions Modeling,SLAC National Accelerator Laboratory Machine Learning Group Research Group,88394,63,6.159528351,5.62872412,2753.623844,586.4301179,I/O throughput limitations
+Accelerator Beam Dynamics Simulation,Caltech Center for Advanced Computing Simulation Consortium,84419,88,5.604410052,6.238678255,3303.719996,391.7777815,Interconnect congestion
+Astrophysical Simulations,Stanford Genome Technology Center Modeling Team,82825,82,5.860531034,6.239170597,3278.935738,372.4050653,Insufficient burst buffer capacity
+AI Climate Modeling and Prediction,Berkeley Quantum Devices Group Research Group,86804,87,5.428940035,6.51126384,3222.752754,366.0458778,Data preprocessing bottlenecks
+Plasma Fusion Simulation,Berkeley Quantum Devices Group Research Group,87010,84,5.485555264,6.76942448,3095.281244,398.3683694,Fault tolerance under long runs
+Astrophysical Simulations,ORNL Climate Change Science Institute Research Group,86535,90,5.431780944,6.292670523,3113.290059,358.1149443,Software stack instability
+Renewable Energy Systems Optimization,Georgia Tech Computational Combustion Laboratory HPC Lab,87656,70,6.680060995,6.150359385,2596.878291,483.83913,NUMA-related performance penalties
+Nuclear Structure and Reactions Modeling,ANL Materials Science Division Modeling Team,95685,66,6.899181809,5.642278241,2569.302017,440.7631602,Thermal throttling under sustained load
+Molecular Materials Discovery,Stanford Genome Technology Center HPC Lab,90110,65,6.267739804,5.476713569,2599.829781,464.4935395,Dataset transfer delays between facilities
+Quantum Climate Modeling,University of Illinois NCSA Modeling Team,91491,65,6.41224715,5.892471964,2523.417079,438.6357329,Dataset transfer delays between facilities
+Cryogenic Detector Simulation,Brookhaven National Laboratory Collider-Accelerator Department Research Group,86435,68,6.312906314,5.772332117,2385.276088,466.2877452,Debugging complexity in large-scale runs
+Turbulent Combustion Modeling,MIT Plasma Science and Fusion Center Simulation Consortium,73163,71,5.4915684,5.056293375,2162.319112,306.6079059,Debugging complexity in large-scale runs
+Astrophysical Simulations,Georgia Tech Computational Combustion Laboratory Modeling Team,73359,75,6.412793178,4.754042704,2241.002429,298.1889908,Load imbalance in parallel workloads
+Plasma Fusion Simulation,University of Chicago Quantum Information Science Group Simulation Consortium,77160,74,5.949414334,4.780094165,2134.311103,323.2691017,Software stack instability
+Cryogenic Detector Simulation,Berkeley Quantum Devices Group Research Group,80824,73,5.955833937,4.557921638,2084.176886,304.7318051,Insufficient burst buffer capacity
+Turbulent Combustion Modeling,Caltech Center for Advanced Computing Research Group,73939,77,5.598952779,4.898302154,2201.718559,297.5845765,MPI collective operation contention
+Astrophysical Simulations,ORNL Climate Change Science Institute Simulation Consortium,112230,91,6.074018703,4.921220247,2501.836935,283.7341328,Load imbalance in parallel workloads
+Accelerator Beam Dynamics Simulation,Caltech Center for Advanced Computing Modeling Team,114578,97,6.06576692,4.779418467,2641.73146,261.4959283,Fault tolerance under long runs
+Cryogenic Detector Simulation,Harvard Center for the Environment Research Group,107765,90,6.248345494,4.84716918,2655.211474,281.2916668,NUMA-related performance penalties
+Renewable Energy Systems Optimization,Los Alamos National Laboratory Materials Physics and Applications Research Group,106673,87,5.767254266,5.199629514,2689.588583,257.736602,Load imbalance in parallel workloads
+Quantum Climate Modeling,Harvard Center for the Environment Simulation Consortium,108029,102,5.941652221,5.658240716,2675.032917,267.1606271,Thermal throttling under sustained load
+Computational Fluid Dynamics for Energy,Georgia Tech Computational Combustion Laboratory Modeling Team,78529,81,6.841190519,5.803486182,2689.186775,422.7199802,NUMA-related performance penalties
+Genome-scale Systems Biology,Berkeley Quantum Devices Group Research Group,85301,87,6.650040953,5.239585689,2894.508624,460.8913039,Software stack instability
+Molecular Materials Discovery,Fermilab High Energy Physics Division HPC Lab,73867,80,6.131805074,5.442628005,2742.01883,454.9200557,Software stack instability
+Genome-scale Systems Biology,Los Alamos National Laboratory Materials Physics and Applications Research Group,84907,88,6.029132952,5.267859217,2844.082872,369.0864585,Interconnect congestion
+Renewable Energy Systems Optimization,EPFL High Performance Computing Center HPC Lab,81814,85,6.43141255,5.485184221,2887.322824,442.6874023,Data preprocessing bottlenecks
+Turbulent Combustion Modeling,Stanford Genome Technology Center Simulation Consortium,84185,91,6.713969789,5.924885544,3396.29917,344.6128399,GPU memory capacity limits
+Molecular Materials Discovery,ANL Materials Science Division Simulation Consortium,84009,96,6.409241457,6.002321717,3340.519113,308.6361048,NUMA-related performance penalties
+Quantum Climate Modeling,Fermilab High Energy Physics Division Simulation Consortium,92436,88,6.057228079,5.863576012,3231.687745,322.6036676,Load imbalance in parallel workloads
+Astrophysical Simulations,Fermilab High Energy Physics Division Research Group,81426,102,6.35981594,6.426406619,3476.864375,305.2113938,Network latency bottlenecks
+Renewable Energy Systems Optimization,Fermilab High Energy Physics Division Modeling Team,90466,91,6.565624035,5.517895203,3275.982889,278.5725652,"Scaling inefficiencies beyond 1,000 nodes"
+Molecular Materials Discovery,NERSC Data and Analytics Services HPC Lab,82255,69,5.811836264,6.591515637,2858.150711,492.5305817,Power consumption spikes during peak loads
+Genome-scale Systems Biology,Stanford Genome Technology Center Simulation Consortium,94209,78,5.987607206,6.150402865,3023.491282,486.4969761,Debugging complexity in large-scale runs
+Astrophysical Simulations,LBNL Computational Research Division Research Group,82787,71,6.151823955,6.808010354,2769.576985,449.3410526,MPI collective operation contention
+Nuclear Structure and Reactions Modeling,LBNL Computational Research Division Modeling Team,88506,69,5.610437574,6.647785849,2789.606789,488.1307478,Scheduler queue delays
+AI Climate Modeling and Prediction,Stanford Genome Technology Center Simulation Consortium,92066,70,6.595571715,6.561642601,2833.589526,501.216358,Interconnect congestion

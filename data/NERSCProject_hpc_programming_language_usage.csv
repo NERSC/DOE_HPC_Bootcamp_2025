@@ -1,0 +1,92 @@
+Platform,Workload,Programming_Language,Usage_Percentage
+Frontier,High Energy Physics Event Simulation,Fortran,46.9
+Frontier,Plasma Fusion Simulation,C++,24.7
+Frontier,Plasma Fusion Simulation,Python,12.2
+Frontier,Turbulent Combustion Modeling,Julia,46.4
+Frontier,Renewable Energy Systems Optimization,C++,21.2
+Frontier,High Energy Physics Event Simulation,Fortran,47.8
+Frontier,Radiation Transport Modeling,Python,25.1
+Frontier,Molecular Materials Discovery,Rust,26.7
+Frontier,AI Climate Modeling and Prediction,Fortran,31.4
+Frontier,Genome-scale Systems Biology,C++,22.1
+Frontier,Plasma Fusion Simulation,Python,33.2
+Frontier,Turbulent Combustion Modeling,C++,6.9
+Frontier,Radiation Transport Modeling,Fortran,42.6
+Frontier,Turbulent Combustion Modeling,CUDA C++,19.8
+Frontier,Molecular Materials Discovery,Python,17.5
+Frontier,Genome-scale Systems Biology,R,8.8
+Frontier,Computational Fluid Dynamics for Energy,C++,29.0
+Frontier,Accelerator Beam Dynamics Simulation,Rust,14.0
+Frontier,Turbulent Combustion Modeling,C++,13.0
+Frontier,Astrophysical Simulations,Fortran,14.7
+Frontier,Genome-scale Systems Biology,Python,26.4
+Aurora,Plasma Fusion Simulation,Fortran,26.8
+Aurora,Molecular Materials Discovery,C++,30.1
+Aurora,High Energy Physics Event Simulation,Python,43.8
+Aurora,Plasma Fusion Simulation,Julia,39.6
+Aurora,Turbulent Combustion Modeling,C++,43.9
+Aurora,Nuclear Structure and Reactions Modeling,Fortran,40.2
+Aurora,Geophysical Hazard Prediction,Python,12.1
+Aurora,Quantum Climate Modeling,Rust,16.7
+Aurora,Computational Fluid Dynamics for Energy,C++,9.7
+Aurora,Cryogenic Detector Simulation,Python,46.2
+Aurora,Genome-scale Systems Biology,Chapel,45.0
+Aurora,Accelerator Beam Dynamics Simulation,Fortran,37.7
+Aurora,Accelerator Beam Dynamics Simulation,C++,30.3
+Aurora,High Energy Physics Event Simulation,Python,29.8
+Aurora,Renewable Energy Systems Optimization,Fortran,18.0
+Aurora,Turbulent Combustion Modeling,C++,39.8
+Aurora,High Energy Physics Event Simulation,Python,24.0
+Perlmutter,Computational Fluid Dynamics for Energy,Fortran,49.9
+Perlmutter,Radiation Transport Modeling,C++,48.2
+Perlmutter,Geophysical Hazard Prediction,Python,12.5
+Perlmutter,Cryogenic Detector Simulation,Julia,27.2
+Perlmutter,Cryogenic Detector Simulation,C++,43.3
+Perlmutter,Turbulent Combustion Modeling,Fortran,29.4
+Perlmutter,Computational Fluid Dynamics for Energy,Python,16.6
+Perlmutter,Cryogenic Detector Simulation,Rust,46.0
+Perlmutter,Cryogenic Detector Simulation,C++,22.4
+Perlmutter,Geophysical Hazard Prediction,Fortran,29.8
+Perlmutter,Quantum Climate Modeling,CUDA C++,9.5
+Perlmutter,Nuclear Structure and Reactions Modeling,Python,40.5
+Perlmutter,High Energy Physics Event Simulation,R,43.6
+Perlmutter,Genome-scale Systems Biology,C++,22.1
+Perlmutter,AI Climate Modeling and Prediction,Rust,36.1
+Perlmutter,Quantum Climate Modeling,C++,39.0
+Perlmutter,Astrophysical Simulations,Fortran,31.0
+Perlmutter,Cryogenic Detector Simulation,OpenCL,9.8
+El Capitan,Computational Fluid Dynamics for Energy,C++,8.8
+El Capitan,Nuclear Structure and Reactions Modeling,Fortran,27.2
+El Capitan,Molecular Materials Discovery,CUDA C++,22.6
+El Capitan,Geophysical Hazard Prediction,C++,33.0
+El Capitan,Renewable Energy Systems Optimization,Fortran,22.1
+El Capitan,AI Climate Modeling and Prediction,Python,40.2
+El Capitan,AI Climate Modeling and Prediction,Rust,45.3
+El Capitan,Genome-scale Systems Biology,Fortran,31.3
+El Capitan,Quantum Climate Modeling,C++,19.8
+El Capitan,AI Climate Modeling and Prediction,Python,27.6
+El Capitan,Genome-scale Systems Biology,Julia,34.7
+El Capitan,Nuclear Structure and Reactions Modeling,Python,45.8
+El Capitan,Molecular Materials Discovery,CUDA C++,39.4
+El Capitan,Geophysical Hazard Prediction,R,28.8
+El Capitan,Quantum Climate Modeling,Julia,14.7
+El Capitan,Quantum Climate Modeling,C++,45.3
+El Capitan,Astrophysical Simulations,Fortran,20.0
+El Capitan,Genome-scale Systems Biology,Python,8.1
+Leonardo,Genome-scale Systems Biology,Fortran,14.3
+Leonardo,Cryogenic Detector Simulation,C++,31.8
+Leonardo,Computational Fluid Dynamics for Energy,Python,18.3
+Leonardo,Plasma Fusion Simulation,Julia,28.8
+Leonardo,High Energy Physics Event Simulation,C++,44.7
+Leonardo,Turbulent Combustion Modeling,Fortran,19.2
+Leonardo,Quantum Climate Modeling,Python,27.5
+Leonardo,Renewable Energy Systems Optimization,Rust,43.0
+Leonardo,AI Climate Modeling and Prediction,Fortran,27.2
+Leonardo,Nuclear Structure and Reactions Modeling,C++,8.2
+Leonardo,Cryogenic Detector Simulation,Python,25.7
+Leonardo,Renewable Energy Systems Optimization,C++,14.0
+Leonardo,Geophysical Hazard Prediction,Fortran,32.5
+Leonardo,AI Climate Modeling and Prediction,Python,43.5
+Leonardo,High Energy Physics Event Simulation,Python,45.0
+Leonardo,High Energy Physics Event Simulation,C++,39.4
+Leonardo,Radiation Transport Modeling,Java,13.4

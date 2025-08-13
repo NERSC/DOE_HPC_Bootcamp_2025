@@ -1,0 +1,131 @@
+Workload,Platform,Project_Name,Node_Type,Nodes,Min_Mem_per_Node_GB,Power_per_Node_kW,Bottleneck,Runtime_h,Work_Units,Interconnect_Sensitivity,Algorithm_Library,Parallel_Framework,Precision
+Cryogenic Detector Simulation,El Capitan,LBNL Computational Research Division HPC Lab,GPU,100,289.2317791,6.73181448,IO,5.813021672,92921.73312,Medium,FFTW,HIP,double precision
+High Energy Physics Event Simulation,El Capitan,ANL Materials Science Division Simulation Consortium,GPU,109,303.6839969,6.494563322,Compute,5.592948709,88106.97143,Medium,AMReX,HIP,single precision
+AI Climate Modeling and Prediction,El Capitan,Brookhaven National Laboratory Collider-Accelerator Department Modeling Team,GPU,105,325.9320387,6.592102046,Memory,5.38362626,84175.06621,High,cuFFT,Kokkos,single precision
+Genome-scale Systems Biology,El Capitan,Princeton Plasma Physics Laboratory Simulation Consortium,GPU,103,289.9984382,5.959481693,Compute,5.75454467,92815.81728,Medium,AMReX,CUDA,BF16
+Plasma Fusion Simulation,El Capitan,Georgia Tech Computational Combustion Laboratory HPC Lab,GPU,97,269.3911199,6.324155806,IO,5.511501681,93809.77102,Low,FFTW,HIP,single precision
+Plasma Fusion Simulation,Frontier,Berkeley Quantum Devices Group Simulation Consortium,Hybrid,104,291.9137711,6.564196324,Comm,6.928875867,70118.05878,Low,MKL,Charm++,mixed precision
+Accelerator Beam Dynamics Simulation,Frontier,Columbia University Earth Institute HPC Lab,Hybrid,105,301.0194879,6.050692433,IO,6.109256255,68930.31565,Medium,PETSc,Kokkos,single precision
+Plasma Fusion Simulation,Frontier,Fermilab High Energy Physics Division Simulation Consortium,Hybrid,102,304.4548899,6.118681589,IO,6.947109469,75909.39407,Low,Trilinos,Kokkos,double precision
+Turbulent Combustion Modeling,Frontier,Brookhaven National Laboratory Collider-Accelerator Department Research Group,Hybrid,113,331.5006871,6.091651324,Compute,6.287478563,78253.42896,High,MFEM,CUDA,AMP
+Renewable Energy Systems Optimization,Frontier,MIT Plasma Science and Fusion Center HPC Lab,Hybrid,111,339.9570968,6.248463515,Memory,6.652308497,80013.39581,High,Trilinos,OpenACC,single precision
+Cryogenic Detector Simulation,Leonardo,Columbia University Earth Institute Simulation Consortium,GPU,80,251.6258744,6.873111555,IO,4.694388738,77035.27562,Low,Trilinos,HIP,single precision
+Turbulent Combustion Modeling,Leonardo,Fermilab High Energy Physics Division HPC Lab,GPU,80,245.4045759,5.961534434,Comm,4.524832425,70220.16412,Medium,MKL,Legion,FP16
+Nuclear Structure and Reactions Modeling,Leonardo,University of Illinois NCSA HPC Lab,GPU,74,240.001673,5.966653035,IO,4.997386918,65254.48525,Low,MKL,OpenACC,double precision
+Renewable Energy Systems Optimization,Leonardo,University of Chicago Quantum Information Science Group Research Group,GPU,78,254.4792914,6.698188395,Comm,4.923962447,71468.28634,Medium,MFEM,Kokkos,mixed precision
+Computational Fluid Dynamics for Energy,Leonardo,Caltech Center for Advanced Computing Simulation Consortium,GPU,82,232.5789379,5.952151444,Compute,4.821109954,75097.05631,Medium,libMesh,Legion,FP16
+Renewable Energy Systems Optimization,Aurora,NERSC Data and Analytics Services HPC Lab,Hybrid,122,243.9892566,5.593236072,IO,6.037083081,98092.94654,Low,FFTW,Kokkos,AMP
+Accelerator Beam Dynamics Simulation,Aurora,MIT Plasma Science and Fusion Center Research Group,Hybrid,115,234.4063936,5.487955417,IO,6.369334456,95457.23763,Low,PETSc,OpenMP,BF16
+Radiation Transport Modeling,Aurora,Harvard Center for the Environment Simulation Consortium,Hybrid,110,234.6784299,5.40911528,Comm,6.571367401,85932.66069,Medium,HYPRE,Charm++,BF16
+Renewable Energy Systems Optimization,Aurora,Berkeley Quantum Devices Group Simulation Consortium,Hybrid,127,247.2350461,5.33611694,Comm,6.070191147,98911.08032,Medium,libMesh,HIP,mixed precision
+Genome-scale Systems Biology,Aurora,Princeton Plasma Physics Laboratory HPC Lab,Hybrid,119,231.7605744,5.857818026,Compute,6.12607609,90211.70489,High,MKL,UPC++,single precision
+Renewable Energy Systems Optimization,El Capitan,Stanford Genome Technology Center HPC Lab,CPU,93,233.3497366,5.788145163,Compute,5.433886224,80415.61852,Medium,FFTW,CUDA,FP16
+Radiation Transport Modeling,El Capitan,Caltech Center for Advanced Computing HPC Lab,CPU,98,230.5084252,5.909077442,Memory,5.810060629,72509.60113,Low,AMReX,Kokkos,double precision
+Astrophysical Simulations,El Capitan,Georgia Tech Computational Combustion Laboratory Research Group,CPU,97,229.5884592,5.440658308,Memory,5.790637355,80511.92769,Low,cuFFT,Charm++,mixed precision
+Plasma Fusion Simulation,El Capitan,Harvard Center for the Environment Research Group,CPU,91,238.8650008,5.530774145,Comm,5.665425388,80626.37082,High,FFTW,UPC++,FP16
+Molecular Materials Discovery,El Capitan,LBNL Computational Research Division Simulation Consortium,CPU,87,234.7109365,5.580314414,IO,5.622671997,77900.58429,High,HYPRE,UPC++,FP16
+Renewable Energy Systems Optimization,Frontier,EPFL High Performance Computing Center HPC Lab,CPU,95,275.2897258,5.6921797,Compute,5.050084152,91910.76237,Medium,HYPRE,OpenACC,mixed precision
+Computational Fluid Dynamics for Energy,Frontier,Caltech Center for Advanced Computing Simulation Consortium,CPU,89,273.7076596,5.703291519,Comm,5.03266605,84723.10202,High,AMReX,MPI,mixed precision
+Plasma Fusion Simulation,Frontier,EPFL High Performance Computing Center Research Group,CPU,87,244.9904122,5.061525103,Memory,4.665002014,94827.92157,Medium,FFTW,Charm++,AMP
+Quantum Climate Modeling,Frontier,EPFL High Performance Computing Center Research Group,CPU,98,265.7584414,6.193939717,Comm,5.139958857,89942.72685,High,MFEM,OpenMP,FP16
+Cryogenic Detector Simulation,Frontier,Princeton Plasma Physics Laboratory Simulation Consortium,CPU,91,266.7255191,5.861101232,IO,4.662246484,97404.19329,Medium,AMReX,Charm++,FP16
+Renewable Energy Systems Optimization,Leonardo,Caltech Center for Advanced Computing Modeling Team,CPU,91,211.0358485,5.743304575,Comm,6.833802363,85960.04093,Low,HYPRE,UPC++,double precision
+High Energy Physics Event Simulation,Leonardo,Brookhaven National Laboratory Collider-Accelerator Department Research Group,CPU,85,225.887924,6.146636192,IO,7.559512316,77429.12223,Medium,AMReX,UPC++,BF16
+Geophysical Hazard Prediction,Leonardo,Los Alamos National Laboratory Materials Physics and Applications Modeling Team,CPU,95,224.8775564,5.821173693,Comm,6.716869348,70611.35646,Low,MFEM,Charm++,BF16
+Accelerator Beam Dynamics Simulation,Leonardo,Georgia Tech Computational Combustion Laboratory Research Group,CPU,87,221.5265179,5.886481521,Comm,6.655754126,76011.53141,Low,MFEM,RAJA,double precision
+Geophysical Hazard Prediction,Leonardo,Princeton Plasma Physics Laboratory Modeling Team,CPU,89,243.3527047,6.605888952,Memory,6.752827625,81520.57947,High,cuBLAS,OpenMP,FP16
+Renewable Energy Systems Optimization,Perlmutter,NERSC Data and Analytics Services Research Group,Hybrid,93,303.6377303,7.306504346,Comm,7.45549965,113761.7867,High,cuBLAS,RAJA,mixed precision
+Turbulent Combustion Modeling,Perlmutter,Brookhaven National Laboratory Collider-Accelerator Department Modeling Team,Hybrid,94,269.1471255,6.408631802,IO,6.38271764,114024.4723,Medium,PETSc,MPI,mixed precision
+Molecular Materials Discovery,Perlmutter,LBNL Computational Research Division Modeling Team,Hybrid,100,272.4736402,6.378357564,Comm,6.993225562,111538.4451,High,cuFFT,UPC++,single precision
+Accelerator Beam Dynamics Simulation,Perlmutter,Princeton Plasma Physics Laboratory Research Group,Hybrid,93,291.8627821,6.763010907,Memory,6.883521109,102493.4801,Low,libMesh,CUDA,BF16
+Genome-scale Systems Biology,Perlmutter,LLNL High Energy Density Physics Group HPC Lab,Hybrid,95,278.5822636,5.991329442,Memory,5.988666222,95211.06626,High,libMesh,RAJA,mixed precision
+Accelerator Beam Dynamics Simulation,Aurora,ORNL Climate Change Science Institute Modeling Team,CPU,100,254.5215151,6.025256646,Comm,7.116047228,85565.59609,Low,MKL,UPC++,single precision
+Nuclear Structure and Reactions Modeling,Aurora,Brookhaven National Laboratory Collider-Accelerator Department Research Group,CPU,98,254.7241142,5.6156515,Memory,6.476942828,75683.09911,Medium,MKL,Legion,FP16
+Geophysical Hazard Prediction,Aurora,University of Chicago Quantum Information Science Group Simulation Consortium,CPU,101,253.1423261,6.144792694,Comm,7.103167233,83759.15191,High,MFEM,Legion,mixed precision
+Geophysical Hazard Prediction,Aurora,Columbia University Earth Institute HPC Lab,CPU,93,242.3646903,5.920400112,IO,6.172668494,77878.14804,Low,MKL,CUDA,mixed precision
+Accelerator Beam Dynamics Simulation,Aurora,University of Chicago Quantum Information Science Group Research Group,CPU,99,274.0666824,6.301201135,Comm,6.942964777,77087.62355,Medium,MKL,MPI,BF16
+Turbulent Combustion Modeling,Perlmutter,Columbia University Earth Institute Research Group,CPU,77,259.9658908,6.320805934,Memory,7.819924797,91049.915,High,libMesh,CUDA,FP16
+Plasma Fusion Simulation,Perlmutter,Stanford Genome Technology Center Modeling Team,CPU,73,245.5992009,5.891441223,Comm,7.399794268,85459.19843,Medium,libMesh,HIP,FP16
+Quantum Climate Modeling,Perlmutter,Brookhaven National Laboratory Collider-Accelerator Department Research Group,CPU,76,247.0538706,6.635151889,Comm,7.543802362,87002.40745,Medium,MKL,RAJA,double precision
+AI Climate Modeling and Prediction,Perlmutter,ORNL Climate Change Science Institute Research Group,CPU,80,258.9593084,5.87313942,IO,7.578261281,88259.88672,High,cuFFT,Kokkos,AMP
+High Energy Physics Event Simulation,Perlmutter,Columbia University Earth Institute Research Group,CPU,81,283.3201254,6.077901679,Memory,7.090203569,81863.32176,Low,FFTW,HIP,BF16
+Cryogenic Detector Simulation,Aurora,Stanford Genome Technology Center Simulation Consortium,Hybrid,109,345.2463127,6.156734436,Compute,6.534852209,95992.40966,Medium,cuFFT,CUDA,mixed precision
+Cryogenic Detector Simulation,Aurora,SLAC National Accelerator Laboratory Machine Learning Group Simulation Consortium,Hybrid,105,337.8589406,6.682261435,IO,5.999495582,86122.79389,Low,PETSc,OpenMP,mixed precision
+Geophysical Hazard Prediction,Aurora,Stanford Genome Technology Center Research Group,Hybrid,114,338.4990902,6.71421366,Comm,5.702554832,90183.61217,Low,cuFFT,MPI,AMP
+Accelerator Beam Dynamics Simulation,Aurora,Los Alamos National Laboratory Materials Physics and Applications HPC Lab,Hybrid,115,324.7822765,6.380691515,Memory,6.110478323,88828.20693,Medium,cuFFT,Kokkos,double precision
+Astrophysical Simulations,Aurora,University of Illinois NCSA Simulation Consortium,Hybrid,106,341.1217641,6.699818875,Memory,6.638521286,90001.56656,Low,MKL,MPI,single precision
+AI Climate Modeling and Prediction,Leonardo,LBNL Computational Research Division HPC Lab,Hybrid,101,228.7963814,5.604748612,IO,6.493364849,87367.7427,Low,cuBLAS,Charm++,AMP
+Quantum Climate Modeling,Leonardo,Los Alamos National Laboratory Materials Physics and Applications HPC Lab,Hybrid,100,216.5069847,6.080695951,Compute,6.301598268,80817.04814,High,cuFFT,OpenACC,FP16
+Genome-scale Systems Biology,Leonardo,ANL Materials Science Division Simulation Consortium,Hybrid,92,241.181525,6.032114323,IO,6.314284329,84521.30416,Medium,HYPRE,Charm++,double precision
+Cryogenic Detector Simulation,Leonardo,SLAC National Accelerator Laboratory Machine Learning Group HPC Lab,Hybrid,98,229.6117382,5.641172724,Comm,6.23322333,82109.88596,High,PETSc,OpenMP,single precision
+Astrophysical Simulations,Leonardo,MIT Plasma Science and Fusion Center HPC Lab,Hybrid,96,240.1975047,5.676157292,Comm,6.486422868,82386.88239,Low,AMReX,Charm++,FP16
+Molecular Materials Discovery,Frontier,EPFL High Performance Computing Center Modeling Team,GPU,90,289.1645403,6.961293079,IO,5.928058004,99852.71958,Medium,MKL,HIP,BF16
+Genome-scale Systems Biology,Frontier,ORNL Climate Change Science Institute HPC Lab,GPU,95,271.8342712,6.171876311,Compute,5.684930509,93261.31569,Medium,HYPRE,OpenMP,mixed precision
+Geophysical Hazard Prediction,Frontier,LBNL Computational Research Division HPC Lab,GPU,85,257.0658502,6.889120609,Comm,6.227699764,104031.4336,High,MKL,OpenMP,FP16
+Molecular Materials Discovery,Frontier,University of Chicago Quantum Information Science Group Simulation Consortium,GPU,91,267.9275051,6.840738058,Compute,5.891471454,95662.92526,Low,FFTW,Charm++,BF16
+Quantum Climate Modeling,Frontier,University of Illinois NCSA HPC Lab,GPU,84,257.5962464,6.340990976,Compute,5.813294778,93214.73308,High,cuFFT,OpenMP,FP16
+Plasma Fusion Simulation,Perlmutter,LLNL High Energy Density Physics Group HPC Lab,CPU,96,236.286237,6.18704327,IO,7.367214219,88941.9753,Medium,PETSc,OpenMP,BF16
+Radiation Transport Modeling,Perlmutter,LBNL Computational Research Division Research Group,CPU,102,229.1805614,6.216210813,Memory,8.170560757,84084.0665,Low,FFTW,UPC++,BF16
+Computational Fluid Dynamics for Energy,Perlmutter,NERSC Data and Analytics Services Modeling Team,CPU,97,248.8897956,6.179688785,Compute,7.197642105,83828.27989,Low,MFEM,CUDA,mixed precision
+Geophysical Hazard Prediction,Perlmutter,EPFL High Performance Computing Center HPC Lab,CPU,101,257.9792677,5.693049499,Comm,7.276883122,90872.29967,High,MFEM,CUDA,AMP
+Nuclear Structure and Reactions Modeling,Perlmutter,ANL Materials Science Division Modeling Team,CPU,105,261.2543795,6.062604948,Comm,7.396360959,87419.61174,High,Trilinos,OpenACC,AMP
+Molecular Materials Discovery,Perlmutter,SLAC National Accelerator Laboratory Machine Learning Group Simulation Consortium,GPU,85,223.4276301,5.75741115,IO,6.936543015,69689.27426,Low,FFTW,Kokkos,double precision
+Turbulent Combustion Modeling,Perlmutter,Berkeley Quantum Devices Group HPC Lab,GPU,86,222.8911075,6.180908454,Memory,7.096144302,68933.24983,Low,Trilinos,Charm++,single precision
+Accelerator Beam Dynamics Simulation,Perlmutter,ANL Materials Science Division Modeling Team,GPU,97,220.974987,5.601291294,Compute,6.773222753,67921.05639,Medium,HYPRE,HIP,AMP
+Nuclear Structure and Reactions Modeling,Perlmutter,University of Illinois NCSA HPC Lab,GPU,93,214.7679622,5.58861688,Memory,6.856470919,68898.19827,High,HYPRE,HIP,mixed precision
+Molecular Materials Discovery,Perlmutter,Stanford Genome Technology Center HPC Lab,GPU,85,215.3200529,5.880132233,IO,6.727175878,68729.83851,Medium,MKL,CUDA,BF16
+Nuclear Structure and Reactions Modeling,El Capitan,NERSC Data and Analytics Services Modeling Team,CPU,128,371.299021,6.190777617,Memory,6.05369176,72573.18868,Low,PETSc,RAJA,FP16
+Cryogenic Detector Simulation,El Capitan,SLAC National Accelerator Laboratory Machine Learning Group Simulation Consortium,CPU,122,368.191876,6.688226473,Comm,5.990830014,68195.09194,High,cuBLAS,MPI,AMP
+Plasma Fusion Simulation,El Capitan,ORNL Climate Change Science Institute Modeling Team,CPU,133,363.0433011,5.814349353,Memory,5.984931984,67720.09036,Medium,cuFFT,Charm++,AMP
+Molecular Materials Discovery,El Capitan,NERSC Data and Analytics Services HPC Lab,CPU,128,369.8982343,5.441946181,Memory,6.022466377,62310.11066,Medium,FFTW,MPI,single precision
+Radiation Transport Modeling,El Capitan,MIT Plasma Science and Fusion Center Modeling Team,CPU,140,396.0949989,6.0953895,Comm,6.361812734,59278.77953,High,cuFFT,Legion,BF16
+Astrophysical Simulations,Aurora,ANL Materials Science Division HPC Lab,Hybrid,75,274.3614425,5.90145196,Comm,5.766174611,89003.77058,Medium,MFEM,OpenACC,single precision
+Accelerator Beam Dynamics Simulation,Aurora,LBNL Computational Research Division HPC Lab,Hybrid,76,269.9984041,5.593520229,Compute,5.402748319,85282.11788,Low,MFEM,CUDA,FP16
+Plasma Fusion Simulation,Aurora,MIT Plasma Science and Fusion Center Simulation Consortium,Hybrid,77,263.7429544,6.269879896,Compute,6.404309348,94129.0622,High,HYPRE,UPC++,double precision
+Geophysical Hazard Prediction,Aurora,Fermilab High Energy Physics Division Simulation Consortium,Hybrid,74,275.0713189,5.881072308,IO,5.913139988,85192.7565,High,cuBLAS,Legion,FP16
+Turbulent Combustion Modeling,Aurora,Princeton Plasma Physics Laboratory HPC Lab,Hybrid,71,274.0948269,6.217749642,Memory,6.011917875,80257.25612,Low,FFTW,Legion,BF16
+Accelerator Beam Dynamics Simulation,El Capitan,LLNL High Energy Density Physics Group Simulation Consortium,GPU,94,224.4466382,5.819963629,IO,6.972463847,75468.14092,Low,libMesh,OpenACC,BF16
+AI Climate Modeling and Prediction,El Capitan,Princeton Plasma Physics Laboratory Simulation Consortium,GPU,92,248.3858875,5.898086911,Memory,6.598104787,72997.37251,Medium,MFEM,Legion,FP16
+Genome-scale Systems Biology,El Capitan,EPFL High Performance Computing Center HPC Lab,GPU,107,247.5900455,6.472954775,Comm,6.325455205,77108.94591,Low,PETSc,MPI,BF16
+Cryogenic Detector Simulation,El Capitan,Berkeley Quantum Devices Group Modeling Team,GPU,103,240.2240037,5.630448583,Memory,6.536690235,71108.2204,Medium,cuBLAS,Kokkos,single precision
+Geophysical Hazard Prediction,El Capitan,Los Alamos National Laboratory Materials Physics and Applications HPC Lab,GPU,101,227.6262238,5.914689699,IO,6.587096975,70508.88375,High,cuBLAS,Kokkos,mixed precision
+Cryogenic Detector Simulation,Frontier,LLNL High Energy Density Physics Group Simulation Consortium,Hybrid,98,323.0986441,6.947724971,Memory,5.560228039,91978.36825,Low,AMReX,CUDA,FP16
+Renewable Energy Systems Optimization,Frontier,SLAC National Accelerator Laboratory Machine Learning Group Research Group,Hybrid,99,323.9254755,7.278961056,Memory,5.585376187,90857.71657,Low,cuFFT,MPI,double precision
+Accelerator Beam Dynamics Simulation,Frontier,Harvard Center for the Environment Modeling Team,Hybrid,98,318.6651617,7.145108699,Compute,5.398893116,104474.4726,Medium,HYPRE,UPC++,FP16
+Geophysical Hazard Prediction,Frontier,EPFL High Performance Computing Center Modeling Team,Hybrid,96,290.0997757,7.17972932,Comm,5.217294191,100061.8978,Low,MFEM,CUDA,FP16
+Cryogenic Detector Simulation,Frontier,Berkeley Quantum Devices Group Research Group,Hybrid,107,322.5367022,7.632660619,IO,5.597511937,98302.72048,High,MFEM,MPI,BF16
+Geophysical Hazard Prediction,Leonardo,Berkeley Quantum Devices Group Research Group,GPU,83,218.9681203,5.821232994,IO,7.298282547,99041.30378,High,Trilinos,UPC++,single precision
+Geophysical Hazard Prediction,Leonardo,Fermilab High Energy Physics Division HPC Lab,GPU,84,212.7749756,5.780553339,Memory,6.678552042,97369.49811,Low,PETSc,OpenACC,mixed precision
+Accelerator Beam Dynamics Simulation,Leonardo,Georgia Tech Computational Combustion Laboratory Modeling Team,GPU,91,210.6673608,6.27884436,Compute,7.098700238,95922.03756,Low,cuBLAS,HIP,mixed precision
+Cryogenic Detector Simulation,Leonardo,ANL Materials Science Division HPC Lab,GPU,87,244.8000599,5.927256471,Compute,6.771634759,99115.01006,Medium,MKL,UPC++,single precision
+Astrophysical Simulations,Leonardo,EPFL High Performance Computing Center Modeling Team,GPU,93,240.5114066,5.941847078,Memory,7.240844909,106415.5713,Medium,AMReX,HIP,mixed precision
+Accelerator Beam Dynamics Simulation,Perlmutter,Brookhaven National Laboratory Collider-Accelerator Department Research Group,CPU,127,243.6573133,5.825103137,Memory,5.470724489,96004.76729,Low,AMReX,Charm++,AMP
+Turbulent Combustion Modeling,Perlmutter,MIT Plasma Science and Fusion Center Simulation Consortium,CPU,118,246.4855556,6.642270906,IO,5.492287018,105038.0488,Low,HYPRE,HIP,mixed precision
+Accelerator Beam Dynamics Simulation,Perlmutter,Berkeley Quantum Devices Group Research Group,CPU,122,277.9739177,6.58674821,Compute,5.974621493,86748.56973,High,AMReX,Kokkos,single precision
+Molecular Materials Discovery,Perlmutter,Stanford Genome Technology Center HPC Lab,CPU,109,254.0553087,7.224810659,Comm,5.2700603,91774.80159,High,HYPRE,UPC++,AMP
+Geophysical Hazard Prediction,Perlmutter,LLNL High Energy Density Physics Group Simulation Consortium,CPU,112,262.4459178,6.156968551,Compute,5.056690315,98853.53091,Low,AMReX,HIP,BF16
+Geophysical Hazard Prediction,El Capitan,SLAC National Accelerator Laboratory Machine Learning Group HPC Lab,CPU,82,319.7805602,5.780464406,IO,7.938514073,102623.3108,High,cuBLAS,OpenMP,mixed precision
+Nuclear Structure and Reactions Modeling,El Capitan,Princeton Plasma Physics Laboratory Modeling Team,CPU,96,326.9570981,6.027088114,IO,7.964604574,108823.7175,Low,HYPRE,MPI,AMP
+Cryogenic Detector Simulation,El Capitan,Berkeley Quantum Devices Group Research Group,CPU,90,333.9842265,5.793713674,Comm,7.865316713,111359.2839,Medium,AMReX,UPC++,mixed precision
+Astrophysical Simulations,El Capitan,EPFL High Performance Computing Center Simulation Consortium,CPU,93,345.0016241,5.667309621,Compute,6.97253852,97689.04841,Medium,PETSc,OpenACC,double precision
+Computational Fluid Dynamics for Energy,El Capitan,Georgia Tech Computational Combustion Laboratory Modeling Team,CPU,96,350.7134933,5.881145348,IO,8.732451969,100367.7547,Low,libMesh,Charm++,double precision
+Turbulent Combustion Modeling,Frontier,Columbia University Earth Institute HPC Lab,CPU,120,353.5150639,5.799311833,Compute,5.875466466,85598.37744,Low,HYPRE,OpenACC,BF16
+Cryogenic Detector Simulation,Frontier,Stanford Genome Technology Center Simulation Consortium,CPU,108,354.3640422,5.71336778,Compute,5.136357832,87584.43727,High,cuFFT,MPI,FP16
+Accelerator Beam Dynamics Simulation,Frontier,Brookhaven National Laboratory Collider-Accelerator Department Research Group,CPU,113,343.0079502,5.803597065,Comm,5.714899019,82170.99258,High,AMReX,OpenACC,double precision
+Genome-scale Systems Biology,Frontier,University of Chicago Quantum Information Science Group Simulation Consortium,CPU,114,378.9598835,5.522029325,Memory,5.685838609,85158.06849,Medium,FFTW,Kokkos,BF16
+Quantum Climate Modeling,Frontier,ORNL Climate Change Science Institute Modeling Team,CPU,113,342.8613924,5.92203136,Comm,5.384500807,84042.25442,High,AMReX,Charm++,AMP
+Turbulent Combustion Modeling,Aurora,NERSC Data and Analytics Services Modeling Team,GPU,91,224.6561404,6.000572593,Memory,4.879877779,92109.12,Low,MKL,Kokkos,double precision
+AI Climate Modeling and Prediction,Aurora,SLAC National Accelerator Laboratory Machine Learning Group Simulation Consortium,GPU,89,230.1799881,6.072742319,IO,4.866851144,88626.09446,Low,libMesh,CUDA,double precision
+AI Climate Modeling and Prediction,Aurora,NERSC Data and Analytics Services HPC Lab,GPU,90,227.996345,6.82787958,IO,4.968420195,85799.2544,Medium,FFTW,RAJA,mixed precision
+Nuclear Structure and Reactions Modeling,Aurora,EPFL High Performance Computing Center Modeling Team,GPU,96,235.1093297,6.338707682,Comm,4.840766348,83432.19322,Medium,MKL,OpenMP,FP16
+Cryogenic Detector Simulation,Aurora,LLNL High Energy Density Physics Group Modeling Team,GPU,97,270.9595122,6.189138869,Compute,4.631846665,93862.4537,Low,FFTW,Charm++,FP16
+Nuclear Structure and Reactions Modeling,Frontier,Los Alamos National Laboratory Materials Physics and Applications Research Group,GPU,77,268.3352465,5.988662297,IO,6.846806349,80718.49655,Medium,HYPRE,OpenMP,double precision
+Nuclear Structure and Reactions Modeling,Frontier,Fermilab High Energy Physics Division HPC Lab,GPU,69,313.735025,6.374350137,Compute,6.843267611,80600.22783,High,MKL,Charm++,AMP
+AI Climate Modeling and Prediction,Frontier,MIT Plasma Science and Fusion Center Modeling Team,GPU,75,290.2101696,6.281425612,Compute,6.814278313,78581.24047,Medium,MFEM,Charm++,FP16
+AI Climate Modeling and Prediction,Frontier,Los Alamos National Laboratory Materials Physics and Applications HPC Lab,GPU,86,280.8906655,5.984687102,Comm,7.387523407,87532.02187,Low,MFEM,MPI,single precision
+Molecular Materials Discovery,Frontier,Georgia Tech Computational Combustion Laboratory Simulation Consortium,GPU,74,267.0568156,5.719294615,Memory,6.73139424,93358.78029,High,PETSc,OpenMP,double precision
+Renewable Energy Systems Optimization,Leonardo,MIT Plasma Science and Fusion Center Modeling Team,CPU,91,265.184652,5.714488237,IO,7.016131813,79673.63422,Low,libMesh,OpenMP,single precision
+Quantum Climate Modeling,Leonardo,SLAC National Accelerator Laboratory Machine Learning Group HPC Lab,CPU,101,271.3613386,5.926785509,Memory,6.464634289,83200.29534,High,HYPRE,CUDA,BF16
+Cryogenic Detector Simulation,Leonardo,EPFL High Performance Computing Center HPC Lab,CPU,94,255.3523519,5.589748523,IO,6.533445956,82214.62063,Low,AMReX,Charm++,single precision
+Geophysical Hazard Prediction,Leonardo,Caltech Center for Advanced Computing Modeling Team,CPU,101,259.275473,6.278951835,IO,6.493418834,79365.89457,Medium,FFTW,RAJA,single precision
+Accelerator Beam Dynamics Simulation,Leonardo,MIT Plasma Science and Fusion Center HPC Lab,CPU,105,254.566343,6.049150928,Compute,6.553049059,79453.39682,High,PETSc,Kokkos,mixed precision
